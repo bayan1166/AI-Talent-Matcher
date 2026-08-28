@@ -103,3 +103,5 @@ yarl==1.24.5
 fastapi
 uvicorn
 chromadb
+scikit-learn
+joblib
