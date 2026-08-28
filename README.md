@@ -61,4 +61,4 @@ The system is evaluated using human-labeled ground truth for synthetic candidate
 
 ## Dashboard Preview
 
-![Ai_Talent_Matcher](ش.png)
+![Ai_Talent_Matcher](Fig.png)
