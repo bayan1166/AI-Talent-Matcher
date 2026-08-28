@@ -58,3 +58,7 @@ npm run dev
 ##  Evaluation
 
 The system is evaluated using human-labeled ground truth for synthetic candidates and teams. Precision, recall, and accuracy are computed, and the trained classifier is benchmarked against a deterministic weighted-score baseline (Direct Skill: 40%, Experience: 25%, Project Relevance: 15%, Availability: 10%, Education: 10%).
+
+## Dashboard Preview
+
+![Ai_Talent_Matcher](ش.png)
