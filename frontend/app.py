@@ -9,7 +9,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-BACKEND_URL = "http://127.0.0.1:8000/match"
+BACKEND_URL = "https://ai-talent-matcher-0bvk.onrender.com/match"
 
 # Theme styling & layout adjustments
 st.markdown("""
