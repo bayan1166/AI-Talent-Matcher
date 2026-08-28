@@ -1,0 +1,21 @@
+ProjectID,ProjectTitle,RequiredSkills,DurationMonths,TeamSize
+PRJ001,Enterprise AI Initiative 1,"SQL, Data Analysis, NLP",4,7
+PRJ002,Enterprise AI Initiative 2,"FastAPI, AWS, NLP",6,6
+PRJ003,Enterprise AI Initiative 3,"NLP, FastAPI, SQL",6,4
+PRJ004,Enterprise AI Initiative 4,"React, NLP",7,3
+PRJ005,Enterprise AI Initiative 5,"Machine Learning, FastAPI, Data Analysis, React",7,4
+PRJ006,Enterprise AI Initiative 6,"SQL, NLP",10,3
+PRJ007,Enterprise AI Initiative 7,"React, FastAPI",6,3
+PRJ008,Enterprise AI Initiative 8,"Data Analysis, NLP, Python",4,4
+PRJ009,Enterprise AI Initiative 9,"Docker, Python",5,5
+PRJ010,Enterprise AI Initiative 10,"Data Analysis, AWS",11,8
+PRJ011,Enterprise AI Initiative 11,"NLP, FastAPI",11,4
+PRJ012,Enterprise AI Initiative 12,"DevOps, FastAPI",7,4
+PRJ013,Enterprise AI Initiative 13,"SQL, FastAPI, React",11,8
+PRJ014,Enterprise AI Initiative 14,"React, NLP, DevOps",3,6
+PRJ015,Enterprise AI Initiative 15,"React, DevOps, Machine Learning, SQL",3,5
+PRJ016,Enterprise AI Initiative 16,"NLP, Machine Learning, DevOps",6,8
+PRJ017,Enterprise AI Initiative 17,"Python, AWS, SQL",12,8
+PRJ018,Enterprise AI Initiative 18,"React, DevOps, Python",8,4
+PRJ019,Enterprise AI Initiative 19,"Machine Learning, Data Analysis, NLP, AWS",10,8
+PRJ020,Enterprise AI Initiative 20,"Docker, NLP, Machine Learning",6,8

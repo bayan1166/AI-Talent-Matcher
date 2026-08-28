@@ -1,0 +1,1001 @@
+EEID,Full Name,Department,Job Title,Skills,Availability,PastProjects
+E02387,Emily Davis,IT,Sr. Manger,"Python, React",In Project (1 month left),Project_150
+E04105,Theodore Dinh,IT,Technical Architect,"NLP, AWS, SQL",In Project (1 month left),Project_211
+E02572,Luna Sanders,Finance,Director,"Docker, Data Analysis",In Project (1 month left),Project_526
+E02832,Penelope Jordan,IT,Computer Systems Manager,"Python, SQL",Available,Project_282
+E01639,Austin Vo,Finance,Sr. Analyst,"NLP, FastAPI, Python",In Project (1 month left),Project_265
+E00644,Joshua Gupta,Sales,Account Representative,"FastAPI, Data Analysis, NLP",Available,Project_788
+E01550,Ruby Barnes,IT,Manager,"Docker, React, Python, Data Analysis, SQL",In Project (1 month left),Project_391
+E04332,Luke Martin,Finance,Analyst,"Machine Learning, React, AWS, SQL, DevOps",In Project (3 months left),Project_725
+E04533,Easton Bailey,Accounting,Manager,"SQL, Data Analysis",In Project (1 month left),Project_776
+E03838,Madeline Walker,Finance,Sr. Analyst,"Machine Learning, Docker",Unavailable,Project_808
+E00591,Savannah Ali,Human Resources,Sr. Manger,"Python, DevOps, SQL, NLP",Available,Project_816
+E03344,Camila Rogers,Engineering,Controls Engineer,"FastAPI, React",In Project (3 months left),Project_709
+E00530,Eli Jones,Human Resources,Manager,"Docker, NLP, SQL, Python",Available,Project_686
+E04239,Everleigh Ng,Finance,Sr. Manger,"React, SQL, NLP",In Project (1 month left),Project_906
+E03496,Robert Yang,Accounting,Sr. Analyst,"Data Analysis, React",Unavailable,Project_675
+E00549,Isabella Xi,Marketing,Vice President,"Machine Learning, AWS, Docker, FastAPI, SQL",Unavailable,Project_281
+E00163,Bella Powell,Finance,Director,"SQL, AWS, NLP, Docker",Unavailable,Project_566
+E00884,Camila Silva,Marketing,Sr. Manger,"Data Analysis, React, NLP, Machine Learning, AWS",In Project (1 month left),Project_867
+E04116,David Barnes,IT,Director,"NLP, Python",In Project (1 month left),Project_692
+E04625,Adam Dang,Sales,Director,"Data Analysis, React, SQL, DevOps",Unavailable,Project_468
+E03680,Elias Alvarado,IT,Sr. Manger,"NLP, DevOps, Data Analysis, Machine Learning",In Project (1 month left),Project_136
+E04732,Eva Rivera,Sales,Director,"AWS, React, Docker, SQL, Machine Learning",In Project (1 month left),Project_195
+E03484,Logan Rivera,IT,Director,"Docker, Data Analysis, FastAPI, AWS",In Project (3 months left),Project_886
+E00671,Leonardo Dixon,Sales,Analyst,"AWS, FastAPI, DevOps",In Project (1 month left),Project_406
+E02071,Mateo Her,Sales,Vice President,"Python, SQL",In Project (3 months left),Project_430
+E02206,Jose Henderson,Human Resources,Director,"AWS, Data Analysis, SQL",Unavailable,Project_477
+E04545,Abigail Mejia,Engineering,Quality Engineer,"Data Analysis, DevOps, React, FastAPI, Python",Available,Project_488
+E00154,Wyatt Chin,Engineering,Vice President,"FastAPI, React",In Project (1 month left),Project_939
+E03343,Carson Lu,Engineering,Engineering Manager,"SQL, React, Data Analysis, Docker",Unavailable,Project_169
+E00304,Dylan Choi,IT,Vice President,"Python, React, AWS, FastAPI, Docker",Unavailable,Project_876
+E02594,Ezekiel Kumar,IT,IT Coordinator,"FastAPI, NLP, AWS, DevOps",In Project (1 month left),Project_537
+E00402,Dominic Guzman,Finance,Analyst,"FastAPI, Docker, Python",Available,Project_963
+E01994,Angel Powell,Sales,Analyst II,"DevOps, Python, SQL, AWS",Available,Project_663
+E03549,Mateo Vu,Sales,Account Representative,"NLP, Python, Docker, React",In Project (1 month left),Project_166
+E03247,Caroline Jenkins,Finance,Analyst,"SQL, DevOps",Unavailable,Project_399
+E02074,Nora Brown,IT,Enterprise Architect,"FastAPI, AWS",In Project (1 month left),Project_582
+E04152,Adeline Huang,Engineering,Controls Engineer,"DevOps, FastAPI, AWS",Available,Project_237
+E01628,Jackson Perry,Marketing,Vice President,"FastAPI, Data Analysis, NLP, React",In Project (1 month left),Project_224
+E04285,Riley Padilla,IT,Technical Architect,"React, Data Analysis, Machine Learning",Unavailable,Project_811
+E01417,Leah Pena,IT,Enterprise Architect,"FastAPI, DevOps, SQL, Docker, Data Analysis",Available,Project_980
+E01754,Owen Lam,Human Resources,Sr. Business Partner,"Machine Learning, Python",Available,Project_381
+E03749,Kennedy Foster,Marketing,Manager,"Docker, NLP, Python",Available,Project_437
+E03574,John Moore,IT,Vice President,"Python, NLP",Unavailable,Project_639
+E04600,William Vu,Sales,Account Representative,"Python, Machine Learning",In Project (1 month left),Project_523
+E00586,Sadie Washington,Marketing,Sr. Manger,"FastAPI, NLP",Available,Project_637
+E03538,Gabriel Holmes,IT,Enterprise Architect,"DevOps, NLP, AWS, Machine Learning",Unavailable,Project_314
+E02185,Wyatt Rojas,IT,Computer Systems Manager,"NLP, DevOps, Data Analysis, SQL, Python",Unavailable,Project_812
+E03830,Eva Coleman,IT,Director,"Data Analysis, Machine Learning",In Project (3 months left),Project_314
+E03720,Dominic Clark,Engineering,Quality Engineer,"Data Analysis, DevOps, Python, Machine Learning, Docker",Available,Project_726
+E03025,Lucy Alexander,Engineering,Director,"Python, Data Analysis",Unavailable,Project_159
+E04917,Everleigh Washington,Human Resources,HRIS Analyst,"SQL, NLP, FastAPI, Docker",In Project (1 month left),Project_211
+E00415,Leilani Butler,Marketing,Analyst II,"AWS, Data Analysis, Docker, DevOps, NLP",Unavailable,Project_685
+E02862,Peyton Huang,IT,Sr. Manger,"SQL, DevOps, Docker",Unavailable,Project_847
+E04207,John Contreras,Marketing,Analyst II,"FastAPI, Python",In Project (3 months left),Project_744
+E02139,Rylee Yu,Accounting,Director,"NLP, AWS",Available,Project_641
+E01797,Piper Lewis,Engineering,Field Engineer,"DevOps, Docker, NLP, Data Analysis, FastAPI",Unavailable,Project_189
+E01839,Stella Alexander,Engineering,Automation Engineer,"AWS, Data Analysis",In Project (1 month left),Project_595
+E01633,Addison Do,Engineering,Operations Engineer,"Data Analysis, React",In Project (3 months left),Project_841
+E01848,Zoey Jackson,Human Resources,Business Partner,"React, Data Analysis, DevOps, SQL, FastAPI",Unavailable,Project_805
+E00716,John Chow,Marketing,Sr. Manger,"NLP, Python, FastAPI, Machine Learning",In Project (1 month left),Project_719
+E00699,Ava Ayala,IT,Sr. Manger,"Python, Docker, DevOps, React",Available,Project_907
+E00502,Natalia Salazar,Accounting,Sr. Analyst,"Python, FastAPI, SQL",In Project (3 months left),Project_823
+E04000,Skylar Carrillo,Engineering,Engineering Manager,"SQL, Docker, NLP",Unavailable,Project_394
+E02112,Christian Sanders,Human Resources,Vice President,"SQL, NLP, Python, React, DevOps",In Project (3 months left),Project_537
+E03824,Penelope Coleman,Finance,Analyst,"Docker, FastAPI, Machine Learning, AWS, SQL",In Project (1 month left),Project_723
+E03906,Piper Richardson,Sales,Sr. Analyst,"NLP, React, Data Analysis, SQL",Available,Project_968
+E00436,Everly Walker,Human Resources,HRIS Analyst,"DevOps, Machine Learning, SQL, Python",Available,Project_424
+E04798,Aurora Ali,Marketing,Manager,"Docker, SQL, FastAPI, React, DevOps",Available,Project_365
+E01249,Penelope Guerrero,IT,Vice President,"AWS, Machine Learning, SQL, DevOps",Available,Project_638
+E03349,Anna Mehta,IT,Cloud Infrastructure Architect,"React, AWS, DevOps, Data Analysis",Unavailable,Project_688
+E02966,William Foster,Engineering,Field Engineer,"Docker, FastAPI, Python, Machine Learning",In Project (1 month left),Project_738
+E01499,Jade Rojas,Finance,Director,"SQL, AWS, React, Python",In Project (3 months left),Project_462
+E00105,Isla Espinoza,Accounting,Manager,"FastAPI, AWS",Unavailable,Project_232
+E00665,David Chu,Engineering,Controls Engineer,"React, NLP, Machine Learning, SQL",In Project (3 months left),Project_729
+E00791,Thomas Padilla,Marketing,Vice President,"FastAPI, DevOps, React, Data Analysis",Available,Project_676
+E01540,Miles Salazar,IT,IT Coordinator,"SQL, Data Analysis",In Project (1 month left),Project_608
+E04474,Mila Hong,Engineering,Test Engineer,"Python, Docker, Machine Learning, Data Analysis",Unavailable,Project_632
+E03417,Benjamin Moua,IT,Computer Systems Manager,"React, AWS, DevOps",In Project (3 months left),Project_846
+E00254,Samuel Morales,Finance,Analyst II,"FastAPI, Python, SQL, Docker, Machine Learning",In Project (3 months left),Project_747
+E02166,John Soto,Finance,Sr. Manger,"FastAPI, Python, Machine Learning",Unavailable,Project_609
+E00935,Joseph Martin,Marketing,Analyst II,"Data Analysis, AWS, Python",In Project (3 months left),Project_604
+E01525,Jose Ross,Engineering,Engineering Manager,"Machine Learning, Python, Docker, SQL",In Project (3 months left),Project_927
+E00386,Parker James,Engineering,Quality Engineer,"SQL, Machine Learning, Data Analysis",Unavailable,Project_284
+E00416,Everleigh Fernandez,Engineering,Director,"NLP, AWS, FastAPI",In Project (1 month left),Project_724
+E03383,Lincoln Hall,Accounting,Director,"Python, AWS, Machine Learning, Data Analysis, NLP",Unavailable,Project_338
+E01516,Willow Mai,Human Resources,Business Partner,"React, AWS, SQL",Unavailable,Project_825
+E01234,Jack Cheng,Human Resources,Director,"Python, DevOps, NLP, SQL, FastAPI",In Project (1 month left),Project_397
+E03440,Genesis Navarro,IT,Cloud Infrastructure Architect,"React, NLP, FastAPI, Python",In Project (3 months left),Project_298
+E00431,Eliza Hernandez,IT,Network Architect,"Data Analysis, Machine Learning, React",Unavailable,Project_101
+E01258,Gabriel Brooks,IT,Network Engineer,"React, Machine Learning",In Project (3 months left),Project_221
+E00440,Jack Huynh,Marketing,Manager,"FastAPI, Machine Learning, Python, DevOps, AWS",In Project (3 months left),Project_124
+E00595,Everly Chow,Finance,Sr. Manger,"Docker, React, Python",In Project (3 months left),Project_576
+E00972,Amelia Salazar,Finance,Analyst II,"Docker, Data Analysis",Unavailable,Project_740
+E04562,Xavier Zheng,Sales,Account Representative,"Machine Learning, Data Analysis, SQL, NLP",In Project (1 month left),Project_915
+E02802,Matthew Chau,Human Resources,Sr. Business Partner,"React, Python, Data Analysis",Available,Project_220
+E01427,Mia Cheng,Sales,Sr. Manger,"FastAPI, Docker",In Project (1 month left),Project_855
+E04568,Rylee Yu,Finance,Vice President,"Machine Learning, Data Analysis, SQL",Unavailable,Project_968
+E04931,Zoe Romero,IT,Network Architect,"Docker, Machine Learning, SQL, FastAPI",In Project (1 month left),Project_312
+E00443,Nolan Bui,IT,Computer Systems Manager,"FastAPI, React, Data Analysis, AWS",Available,Project_918
+E03890,Nevaeh Jones,Sales,Vice President,"React, FastAPI, AWS, SQL, NLP",In Project (1 month left),Project_730
+E01194,Samantha Adams,Engineering,Test Engineer,"AWS, React, Data Analysis, FastAPI, Python",Unavailable,Project_524
+E02875,Madeline Shin,IT,Computer Systems Manager,"React, NLP, Data Analysis, DevOps",In Project (3 months left),Project_523
+E04959,Noah King,Engineering,Development Engineer,"DevOps, Docker, FastAPI, Machine Learning",Available,Project_146
+E03816,Leilani Chow,Human Resources,Director,"FastAPI, DevOps, AWS",In Project (1 month left),Project_441
+E01261,Connor Simmons,Accounting,Analyst II,"React, FastAPI",Unavailable,Project_458
+E03612,Grayson Cooper,Finance,Sr. Manger,"SQL, NLP, React, Docker",Available,Project_673
+E01388,Ivy Soto,Engineering,Field Engineer,"AWS, Python, FastAPI",Available,Project_925
+E03875,Aurora Simmons,Engineering,Development Engineer,"DevOps, SQL, Docker",In Project (1 month left),Project_752
+E04413,Andrew Thomas,Engineering,Controls Engineer,"Docker, NLP, Data Analysis, FastAPI, DevOps",Unavailable,Project_317
+E00691,Ezekiel Desai,Finance,Director,"AWS, Python, SQL",Unavailable,Project_111
+E03047,Gabriella Gupta,Sales,Sr. Account Representative,"NLP, AWS, DevOps, Python, React",Available,Project_755
+E04903,Skylar Liu,IT,Director,"SQL, DevOps, AWS",Available,Project_306
+E04735,Nova Coleman,IT,System Administrator ,"FastAPI, Docker, Machine Learning, Data Analysis, NLP",In Project (3 months left),Project_806
+E02850,Evelyn Dinh,Sales,Director,"FastAPI, DevOps, AWS, Machine Learning, NLP",In Project (1 month left),Project_388
+E03583,Brooks Marquez,Sales,Vice President,"React, NLP, Docker, Data Analysis, DevOps",In Project (3 months left),Project_360
+E02017,Connor Joseph,Human Resources,Director,"NLP, React, DevOps, Python, Machine Learning",Available,Project_909
+E01642,Mia Lam,IT,Sr. Manger,"NLP, React, Machine Learning, AWS",Available,Project_169
+E04379,Scarlett Rodriguez,Finance,Sr. Analyst,"AWS, Docker",Unavailable,Project_415
+E04131,Cora Rivera,Marketing,Sr. Analyst,"Data Analysis, AWS, NLP",Unavailable,Project_407
+E02872,Liam Jung,Finance,Manager,"Data Analysis, Docker",In Project (3 months left),Project_618
+E02331,Sophia Huynh,IT,Enterprise Architect,"FastAPI, DevOps, Data Analysis, Python",Available,Project_663
+E00417,Athena Carrillo,Finance,Analyst II,"Data Analysis, Docker, Python",In Project (1 month left),Project_431
+E04267,Greyson Sanders,IT,Cloud Infrastructure Architect,"DevOps, Python, Machine Learning, AWS, NLP",Unavailable,Project_885
+E03061,Vivian Lewis,Marketing,Manager,"FastAPI, Docker, NLP, DevOps, SQL",Unavailable,Project_106
+E00013,Elena Vang,Finance,Analyst,"Data Analysis, DevOps, Python, NLP",Available,Project_216
+E04265,Natalia Diaz,Engineering,Operations Engineer,"Data Analysis, AWS, DevOps, SQL",In Project (1 month left),Project_802
+E04769,Mila Leung,Marketing,Sr. Analyst,"Data Analysis, Python",In Project (3 months left),Project_441
+E03042,Ava Nelson,IT,Systems Analyst,"Data Analysis, AWS",In Project (1 month left),Project_449
+E00527,Mateo Chu,Engineering,Field Engineer,"AWS, Python, React, NLP, Docker",Available,Project_505
+E01095,Isla Lai,Finance,Vice President,"DevOps, Machine Learning, FastAPI",In Project (1 month left),Project_841
+E03131,Ezekiel Reed,IT,Sr. Manger,"React, Data Analysis, Docker, FastAPI, Python",In Project (1 month left),Project_682
+E01713,Nolan Guzman,Engineering,Field Engineer,"Python, FastAPI, Docker, AWS, SQL",Available,Project_730
+E00128,Everleigh Espinoza,Human Resources,Director,"Python, Docker",In Project (3 months left),Project_129
+E03849,Evelyn Jung,Sales,Analyst,"NLP, Python, AWS",In Project (1 month left),Project_952
+E02464,Sophie Silva,Engineering,Vice President,"AWS, DevOps, SQL",Available,Project_279
+E00306,Mateo Williams,IT,Enterprise Architect,"DevOps, React, Machine Learning",In Project (1 month left),Project_298
+E03737,Kennedy Rahman,Human Resources,Vice President,"Docker, SQL, AWS",Available,Project_438
+E02783,Levi Mendez,Sales,Vice President,"SQL, Python, React, DevOps",In Project (3 months left),Project_953
+E02939,Julian Fong,Engineering,Quality Engineer,"Data Analysis, NLP, SQL, React, Machine Learning",Unavailable,Project_446
+E02706,Nevaeh Kang,Engineering,Automation Engineer,"SQL, React, Docker",In Project (3 months left),Project_788
+E00170,Hannah Nelson,Marketing,Sr. Analyst,"Machine Learning, FastAPI",Unavailable,Project_590
+E01425,Anthony Rogers,Engineering,Vice President,"Machine Learning, SQL, Docker, Python, NLP",Unavailable,Project_585
+E00130,Paisley Kang,Human Resources,Vice President,"SQL, Data Analysis, Machine Learning, DevOps, NLP",In Project (1 month left),Project_916
+E02094,Matthew Gupta,IT,Network Engineer,"Data Analysis, AWS, React",Available,Project_136
+E03567,Silas Chavez,IT,Technical Architect,"DevOps, Data Analysis, React, AWS, SQL",Available,Project_761
+E04682,Colton Thao,Human Resources,Manager,"React, DevOps",Available,Project_239
+E00957,Genesis Perry,Sales,Sr. Manger,"DevOps, Data Analysis, Machine Learning",In Project (3 months left),Project_593
+E04458,Alexander Bryant,Engineering,Field Engineer,"DevOps, Machine Learning",In Project (3 months left),Project_259
+E01499,Elias Zhang,IT,Solutions Architect,"DevOps, NLP, Machine Learning",In Project (3 months left),Project_742
+E00521,Lily Carter,IT,Network Architect,"Machine Learning, React, FastAPI, DevOps",In Project (3 months left),Project_571
+E03717,Joseph Ruiz,Engineering,Field Engineer,"FastAPI, NLP",In Project (1 month left),Project_985
+E01533,Avery Bailey,Sales,Sr. Analyst,"NLP, Data Analysis",In Project (1 month left),Project_649
+E04449,Miles Hsu,Finance,Analyst II,"FastAPI, NLP, DevOps, Machine Learning, Data Analysis",Unavailable,Project_443
+E02855,Piper Cheng,IT,Enterprise Architect,"DevOps, Python, SQL, AWS, Docker",Unavailable,Project_573
+E00816,Skylar Watson,IT,Network Architect,"NLP, React, Machine Learning, Docker, FastAPI",Available,Project_902
+E02283,Jaxon Park,IT,Network Architect,"Data Analysis, FastAPI, Machine Learning, AWS",In Project (3 months left),Project_933
+E04888,Elijah Henry,IT,Manager,"React, Docker, FastAPI, SQL, Python",In Project (1 month left),Project_523
+E03907,Camila Watson,Finance,Vice President,"Machine Learning, SQL, AWS",Unavailable,Project_860
+E02166,Lucas Thomas,Accounting,Manager,"NLP, DevOps, React",Available,Project_157
+E00431,Skylar Doan,Human Resources,Sr. Business Partner,"SQL, NLP, React, Docker",Available,Project_955
+E01501,Hudson Liu,Engineering,Engineering Manager,"AWS, React, Python, Machine Learning",In Project (3 months left),Project_633
+E01141,Gianna Williams,Engineering,Quality Engineer,"React, Python, FastAPI",In Project (3 months left),Project_406
+E02254,Jaxson Sandoval,Sales,Sr. Analyst,"AWS, DevOps, SQL, Data Analysis",Available,Project_678
+E04504,Jameson Alvarado,IT,Enterprise Architect,"Docker, React",In Project (3 months left),Project_842
+E03394,Joseph Ly,Marketing,Vice President,"DevOps, Docker, Machine Learning, SQL, Python",In Project (3 months left),Project_794
+E02942,Daniel Richardson,Engineering,Director,"DevOps, SQL, FastAPI, NLP",Unavailable,Project_423
+E04130,Elias Figueroa,Finance,Sr. Manger,"SQL, Python, AWS, Docker, React",Unavailable,Project_668
+E02848,Emma Brooks,Sales,Sr. Account Representative,"SQL, NLP, Docker, React",Unavailable,Project_648
+E00085,Isla Wong,Accounting,Vice President,"Docker, NLP, Data Analysis, FastAPI, DevOps",In Project (1 month left),Project_119
+E03956,Everly Walker,Sales,Sr. Manger,"Docker, Data Analysis, React, DevOps",In Project (3 months left),Project_313
+E00672,Mila Pena,Human Resources,Sr. Business Partner,"Docker, SQL",Unavailable,Project_691
+E04618,Mason Zhao,IT,Technical Architect,"NLP, React, SQL",Unavailable,Project_801
+E03506,Jaxson Mai,Human Resources,Vice President,"NLP, AWS, SQL",Available,Project_439
+E00568,Ava Garza,Accounting,Director,"Python, Data Analysis, DevOps",Unavailable,Project_918
+E00535,Nathan Mendez,IT,Manager,"React, Python, NLP, AWS, Machine Learning",Available,Project_914
+E04630,Maria Griffin,Marketing,Manager,"DevOps, SQL, NLP, AWS",In Project (3 months left),Project_462
+E00874,Alexander Choi,Marketing,Manager,"Data Analysis, SQL, NLP",Available,Project_167
+E01546,Maria Hong,Finance,Vice President,"React, AWS, SQL",Unavailable,Project_252
+E00941,Sophie Ali,Finance,Analyst,"AWS, React",In Project (1 month left),Project_387
+E03446,Julian Ross,Marketing,Manager,"DevOps, SQL, Docker, Machine Learning",In Project (1 month left),Project_960
+E01361,Emma Hill,IT,IT Coordinator,"Data Analysis, React, DevOps, NLP",In Project (3 months left),Project_131
+E01631,Leilani Yee,Marketing,Sr. Analyst,"Docker, Python",Unavailable,Project_447
+E03719,Jack Brown,Marketing,Analyst,"Machine Learning, React, Python, DevOps, SQL",In Project (3 months left),Project_484
+E03269,Charlotte Chu,IT,Network Engineer,"React, Python",Available,Project_741
+E01037,Jeremiah Chu,IT,IT Systems Architect,"DevOps, FastAPI, Docker",In Project (3 months left),Project_647
+E00671,Miles Cho,IT,Systems Analyst,"AWS, Data Analysis, DevOps, Python",In Project (1 month left),Project_962
+E02216,Caleb Marquez,IT,IT Systems Architect,"Machine Learning, Data Analysis, Docker, AWS, DevOps",In Project (3 months left),Project_269
+E02803,Eli Soto,Marketing,Analyst,"AWS, Machine Learning",Available,Project_684
+E01584,Carter Mejia,Human Resources,Sr. Manger,"DevOps, React, Data Analysis, Docker, FastAPI",Unavailable,Project_720
+E02489,Ethan Clark,Human Resources,Sr. Business Partner,"DevOps, SQL",In Project (3 months left),Project_498
+E03189,Asher Jackson,Sales,Sr. Manger,"React, Machine Learning, SQL, Data Analysis",Available,Project_291
+E03560,Ayla Ng,Sales,Account Representative,"FastAPI, Python, DevOps, NLP, Docker",In Project (1 month left),Project_709
+E00769,Jose Kang,Engineering,Engineering Manager,"FastAPI, Machine Learning, DevOps",Unavailable,Project_219
+E02791,Aubrey Romero,Sales,Director,"Python, NLP, React, DevOps, SQL",In Project (3 months left),Project_985
+E02333,Jaxson Wright,IT,Service Desk Analyst,"DevOps, Docker, SQL, Python",In Project (3 months left),Project_901
+E01002,Elias Ali,Sales,Manager,"AWS, React, Python",In Project (1 month left),Project_869
+E03520,Nolan Pena,Marketing,Analyst,"SQL, NLP, Docker, FastAPI, Python",In Project (3 months left),Project_415
+E00752,Luna Liu,Sales,Vice President,"DevOps, React, FastAPI",In Project (1 month left),Project_822
+E00233,Brooklyn Reyes,IT,Service Desk Analyst,"DevOps, Docker, NLP, FastAPI, React",In Project (1 month left),Project_978
+E02639,Hadley Parker,Marketing,Vice President,"Data Analysis, NLP, AWS",Unavailable,Project_422
+E00697,Jonathan Chavez,IT,System Administrator ,"React, Data Analysis",In Project (1 month left),Project_826
+E02183,Sarah Ayala,Sales,Analyst,"FastAPI, React, Python, AWS",In Project (1 month left),Project_132
+E00715,Elijah Kang,Engineering,Vice President,"Docker, DevOps, AWS, NLP",In Project (1 month left),Project_378
+E04288,Ella White,Engineering,Development Engineer,"Machine Learning, Docker, Data Analysis, NLP, AWS",In Project (3 months left),Project_523
+E02421,Jordan Truong,Engineering,Director,"NLP, Data Analysis, Docker",In Project (1 month left),Project_188
+E00523,Daniel Jordan,IT,Network Administrator,"Python, Machine Learning, DevOps, FastAPI, NLP",In Project (1 month left),Project_608
+E03615,Daniel Dixon,Engineering,Operations Engineer,"AWS, DevOps, Python, SQL, React",In Project (1 month left),Project_998
+E02761,Luca Duong,Human Resources,Manager,"SQL, DevOps, Docker, React",In Project (1 month left),Project_343
+E02121,Levi Brown,Sales,Sr. Analyst,"Python, AWS, Data Analysis, DevOps, Machine Learning",In Project (3 months left),Project_480
+E01486,Mason Cho,Accounting,Vice President,"SQL, DevOps, React",In Project (1 month left),Project_562
+E00725,Nova Herrera,Sales,Account Representative,"Docker, Data Analysis, SQL, FastAPI",Available,Project_949
+E03027,Elijah Watson,Sales,Sr. Manger,"FastAPI, Data Analysis, Machine Learning, DevOps",Available,Project_409
+E03689,Wesley Gray,Accounting,Sr. Analyst,"FastAPI, Python, SQL, DevOps, Machine Learning",Available,Project_321
+E01986,Wesley Sharma,IT,Manager,"NLP, SQL, Data Analysis, Python",Unavailable,Project_637
+E01286,Mateo Mendez,Engineering,Development Engineer,"DevOps, AWS",Available,Project_409
+E01409,Jose Molina,Engineering,Controls Engineer,"Python, Docker, Machine Learning, Data Analysis",Available,Project_279
+E00626,Luna Simmons,Finance,Sr. Analyst,"React, Machine Learning",Unavailable,Project_214
+E04342,Samantha Barnes,Marketing,Vice President,"Data Analysis, AWS, NLP, React",In Project (3 months left),Project_483
+E03904,Hunter Ortiz,Finance,Sr. Analyst,"Docker, AWS, FastAPI, SQL, Python",In Project (3 months left),Project_903
+E01291,Thomas Aguilar,Sales,Sr. Account Representative,"Docker, NLP, DevOps, React, SQL",Unavailable,Project_138
+E00917,Skylar Bell,Engineering,Vice President,"DevOps, React, Docker",In Project (3 months left),Project_896
+E01484,Anna Zhu,IT,Service Desk Analyst,"Python, DevOps, React, Machine Learning",Unavailable,Project_306
+E03864,Ella Hunter,Finance,Analyst,"SQL, DevOps, Machine Learning",In Project (1 month left),Project_194
+E00488,Emery Hunter,Sales,Sr. Analyst,"Data Analysis, React, DevOps, Docker",In Project (3 months left),Project_554
+E02227,Sofia Parker,IT,Cloud Infrastructure Architect,"NLP, Data Analysis, DevOps, Python",Unavailable,Project_618
+E04802,Lucy Fong,Sales,Sr. Account Representative,"Data Analysis, Machine Learning, React",In Project (1 month left),Project_125
+E01970,Vivian Barnes,Human Resources,Director,"Python, Data Analysis, React, Docker",In Project (1 month left),Project_918
+E02813,Kai Chow,Engineering,Engineering Manager,"Docker, DevOps",Available,Project_594
+E02031,Melody Cooper,Engineering,Development Engineer,"NLP, Machine Learning, Docker, FastAPI",Unavailable,Project_612
+E03252,James Bui,Finance,Manager,"Docker, React, AWS",Unavailable,Project_257
+E04871,Liam Grant,Human Resources,Sr. Business Partner,"Python, React",Available,Project_294
+E03547,Owen Han,Accounting,Analyst,"Python, Machine Learning, AWS, Docker, DevOps",In Project (3 months left),Project_448
+E04742,Kinsley Vega,Accounting,Vice President,"Data Analysis, AWS, NLP, SQL",Unavailable,Project_595
+E01070,Leonardo Martin,Finance,Manager,"FastAPI, Docker, React, Data Analysis",In Project (1 month left),Project_850
+E04359,Greyson Lam,Accounting,Vice President,"React, DevOps, Docker",Unavailable,Project_994
+E03268,Emilia Rivera,Engineering,Test Engineer,"SQL, DevOps, Docker, FastAPI",Available,Project_636
+E04035,Penelope Johnson,Marketing,Sr. Analyst,"Data Analysis, FastAPI, Machine Learning",Unavailable,Project_417
+E01221,Eva Figueroa,Sales,Analyst II,"Data Analysis, Python",In Project (3 months left),Project_894
+E00276,Ezekiel Jordan,Accounting,Sr. Manger,"FastAPI, SQL, DevOps, AWS",Available,Project_435
+E01687,Luke Mai,Human Resources,HRIS Analyst,"Docker, Data Analysis, Machine Learning, Python",Available,Project_246
+E02844,Charles Diaz,Sales,Sr. Manger,"DevOps, Python, Machine Learning",In Project (1 month left),Project_887
+E01263,Adam Espinoza,Engineering,Test Engineer,"SQL, DevOps, React",Unavailable,Project_992
+E00119,Jack Maldonado,Engineering,Director,"SQL, AWS, Python, DevOps, FastAPI",Available,Project_200
+E03935,Cora Jiang,IT,Vice President,"SQL, Docker, NLP, React, FastAPI",In Project (3 months left),Project_941
+E00742,Cooper Mitchell,Sales,Manager,"DevOps, Machine Learning, Data Analysis, React, FastAPI",In Project (3 months left),Project_628
+E02810,Layla Torres,Finance,Sr. Manger,"Data Analysis, SQL, DevOps",In Project (3 months left),Project_792
+E01860,Jack Edwards,Marketing,Manager,"React, Python, Machine Learning, SQL, NLP",In Project (1 month left),Project_235
+E04890,Eleanor Chan,Accounting,Sr. Manger,"NLP, Machine Learning, SQL, FastAPI, AWS",In Project (3 months left),Project_310
+E02285,Aria Xi,Sales,Director,"Python, Data Analysis, React, SQL",In Project (1 month left),Project_841
+E00842,John Vega,Finance,Vice President,"DevOps, SQL",In Project (3 months left),Project_137
+E01271,Luke Munoz,Engineering,Director,"Docker, Python, FastAPI",Unavailable,Project_570
+E01921,Sarah Daniels,Accounting,Sr. Manger,"NLP, AWS, Docker, Python",In Project (3 months left),Project_496
+E03664,Aria Castro,Engineering,Engineering Manager,"Docker, NLP, FastAPI",In Project (3 months left),Project_830
+E00813,Autumn Joseph,IT,Enterprise Architect,"AWS, Python, React, Data Analysis",In Project (1 month left),Project_985
+E00870,Evelyn Liang,IT,Service Desk Analyst,"AWS, FastAPI, React",Unavailable,Project_634
+E04167,Henry Alvarez,Human Resources,Sr. Business Partner,"SQL, Python, AWS",Unavailable,Project_218
+E00245,Benjamin Delgado,Engineering,Test Engineer,"Machine Learning, NLP",In Project (1 month left),Project_104
+E00976,Zoe Rodriguez,Human Resources,Director,"Python, AWS, React, Docker",Unavailable,Project_418
+E04112,Axel Chu,IT,Systems Analyst,"Data Analysis, FastAPI, SQL",In Project (3 months left),Project_145
+E01807,Cameron Evans,Engineering,Test Engineer,"DevOps, Docker",In Project (3 months left),Project_803
+E04103,Isabella Soto,Finance,Vice President,"FastAPI, SQL, DevOps, React",Unavailable,Project_968
+E01412,Eva Jenkins,Human Resources,Sr. Manger,"Docker, Python, React",In Project (3 months left),Project_708
+E04386,Cameron Powell,Human Resources,Business Partner,"Python, Docker, DevOps, Data Analysis, NLP",Unavailable,Project_992
+E01232,Samantha Foster,Human Resources,Vice President,"SQL, DevOps, FastAPI, Python, Data Analysis",In Project (1 month left),Project_189
+E04572,Jade Li,IT,Director,"Docker, AWS, SQL, DevOps",In Project (1 month left),Project_441
+E02747,Kinsley Acosta,IT,Vice President,"Docker, FastAPI, Machine Learning, NLP",In Project (1 month left),Project_578
+E01064,Clara Kang,IT,Sr. Manger,"DevOps, FastAPI, Data Analysis, Python",Available,Project_147
+E00178,Harper Alexander,Sales,Sr. Analyst,"FastAPI, NLP",In Project (3 months left),Project_205
+E01091,Carter Reed,Engineering,Development Engineer,"DevOps, NLP, Data Analysis, AWS, FastAPI",In Project (1 month left),Project_633
+E01525,Charlotte Ruiz,IT,Computer Systems Manager,"Data Analysis, SQL, Machine Learning, NLP, AWS",Unavailable,Project_884
+E01309,Everleigh Jiang,Accounting,Director,"Machine Learning, AWS, DevOps, Python",Unavailable,Project_774
+E02378,Audrey Smith,Engineering,Field Engineer,"SQL, Docker",In Project (1 month left),Project_863
+E04127,Emery Acosta,Sales,Vice President,"SQL, Machine Learning, AWS, React, Python",In Project (1 month left),Project_419
+E02072,Charles Robinson,Human Resources,HRIS Analyst,"SQL, Data Analysis, Machine Learning, FastAPI",In Project (1 month left),Project_123
+E02555,Landon Lopez,Accounting,Sr. Analyst,"Python, React, FastAPI, AWS, Docker",Unavailable,Project_691
+E00187,Miles Mehta,Finance,Director,"AWS, DevOps, NLP",Available,Project_876
+E04332,Ezra Simmons,Engineering,Automation Engineer,"Machine Learning, FastAPI",In Project (1 month left),Project_419
+E02062,Nora Santiago,Accounting,Analyst,"SQL, React, NLP, Data Analysis",Unavailable,Project_754
+E00034,Caroline Herrera,Marketing,Sr. Manger,"FastAPI, Docker, Python, React, Machine Learning",Unavailable,Project_314
+E00273,David Owens,Sales,Sr. Analyst,"Python, AWS, React, Machine Learning",In Project (1 month left),Project_428
+E00691,Avery Yee,IT,Systems Analyst,"Machine Learning, Docker, Python, SQL",In Project (3 months left),Project_305
+E01403,Xavier Park,IT,Vice President,"Docker, Data Analysis, SQL",Unavailable,Project_297
+E03438,Asher Morales,Engineering,Automation Engineer,"Python, SQL, NLP",In Project (3 months left),Project_393
+E04136,Mason Cao,Finance,Analyst II,"Data Analysis, DevOps, Machine Learning, SQL, AWS",In Project (3 months left),Project_383
+E02944,Joshua Fong,Engineering,Vice President,"Machine Learning, SQL, Python, FastAPI",Available,Project_645
+E03300,Maria Chin,Marketing,Analyst,"Docker, Python, SQL",Unavailable,Project_426
+E00078,Eva Garcia,Human Resources,HRIS Analyst,"DevOps, Data Analysis, Docker, React",Available,Project_891
+E00825,Anna Molina,Accounting,Sr. Analyst,"Data Analysis, React, NLP, Docker, FastAPI",In Project (1 month left),Project_551
+E04972,Logan Bryant,Marketing,Sr. Manger,"Machine Learning, Data Analysis",Available,Project_787
+E03941,Isla Han,IT,Technical Architect,"React, DevOps",In Project (1 month left),Project_220
+E02148,Christopher Vega,Engineering,Engineering Manager,"Python, NLP, Data Analysis, React",In Project (3 months left),Project_379
+E02252,Lillian Park,Marketing,Analyst,"Python, NLP",Unavailable,Project_252
+E03096,Kennedy Zhang,Finance,Director,"NLP, AWS, React, FastAPI",Available,Project_261
+E04800,Eli Han,Accounting,Sr. Analyst,"SQL, Python, DevOps, Machine Learning",Unavailable,Project_380
+E02838,Julia Pham,Engineering,Engineering Manager,"AWS, Docker, Data Analysis, React, Machine Learning",In Project (3 months left),Project_217
+E02980,Hailey Shin,Human Resources,Director,"FastAPI, Docker, Machine Learning",In Project (3 months left),Project_115
+E04477,Connor Grant,Accounting,Sr. Analyst,"Data Analysis, Python",In Project (3 months left),Project_737
+E04348,Natalia Owens,Human Resources,Manager,"Python, DevOps, SQL, Data Analysis, AWS",In Project (3 months left),Project_673
+E01638,Maria He,IT,IT Systems Architect,"Docker, Data Analysis, FastAPI, AWS, Python",In Project (3 months left),Project_626
+E03419,Jade Yi,Sales,Account Representative,"Python, Machine Learning, AWS, Data Analysis, React",In Project (3 months left),Project_204
+E04222,Quinn Xiong,Engineering,Test Engineer,"Machine Learning, SQL, Data Analysis, DevOps, Python",Available,Project_311
+E04126,Dominic Baker,Accounting,Sr. Analyst,"Data Analysis, Docker, SQL",Unavailable,Project_655
+E01896,Adam Nelson,Finance,Director,"React, Machine Learning, NLP, AWS, SQL",Available,Project_458
+E03018,Autumn Reed,Engineering,Development Engineer,"FastAPI, SQL",In Project (3 months left),Project_662
+E03325,Robert Edwards,Human Resources,HRIS Analyst,"Machine Learning, Docker, AWS",In Project (1 month left),Project_426
+E04037,Roman Martinez,Finance,Sr. Manger,"SQL, AWS, React",In Project (1 month left),Project_377
+E01902,Eleanor Li,Human Resources,Sr. Manger,"AWS, Docker, SQL",In Project (3 months left),Project_244
+E01466,Connor Vang,Sales,Analyst,"DevOps, Docker, FastAPI",In Project (3 months left),Project_821
+E02038,Ellie Chung,Marketing,Sr. Manger,"Machine Learning, AWS, DevOps, Python",In Project (3 months left),Project_923
+E03474,Violet Hall,IT,Solutions Architect,"DevOps, React, FastAPI, Docker, Python",Unavailable,Project_390
+E02744,Dylan Padilla,Human Resources,HRIS Analyst,"FastAPI, SQL, React, NLP",Unavailable,Project_687
+E00702,Nathan Pham,Accounting,Sr. Manger,"Python, Docker, Machine Learning, Data Analysis, AWS",Available,Project_350
+E03081,Ayla Brown,Sales,Sr. Manger,"SQL, FastAPI",Unavailable,Project_275
+E01281,Isaac Mitchell,IT,Network Architect,"DevOps, FastAPI, Python, NLP, React",In Project (3 months left),Project_172
+E04029,Jayden Jimenez,Human Resources,Manager,"Machine Learning, DevOps, AWS",Unavailable,Project_418
+E01116,Jaxon Tran,Sales,Sr. Manger,"DevOps, SQL",In Project (1 month left),Project_727
+E01753,Connor Fong,Accounting,Manager,"SQL, FastAPI, AWS, Python",In Project (1 month left),Project_446
+E04072,Emery Mitchell,Finance,Vice President,"DevOps, Docker, AWS",In Project (3 months left),Project_653
+E00672,Landon Luu,IT,Vice President,"Machine Learning, React, Data Analysis, NLP",Unavailable,Project_554
+E04419,Sophia Ahmed,Sales,Sr. Manger,"Docker, Python, Machine Learning, FastAPI",Unavailable,Project_151
+E00467,Sofia Dinh,Engineering,Operations Engineer,"SQL, FastAPI, Data Analysis, AWS",Available,Project_233
+E00365,Jonathan Patel,Marketing,Manager,"Docker, AWS, Machine Learning, Python",Available,Project_129
+E00306,Piper Patterson,Engineering,Quality Engineer,"Machine Learning, React, Data Analysis",In Project (1 month left),Project_582
+E03292,Cora Evans,IT,Computer Systems Manager,"Docker, SQL, React",In Project (3 months left),Project_791
+E04779,Cameron Young,Engineering,Vice President,"Machine Learning, AWS, SQL, Docker, Data Analysis",In Project (1 month left),Project_151
+E00501,Melody Ho,Finance,Analyst II,"FastAPI, Machine Learning, Python, AWS, Data Analysis",In Project (3 months left),Project_208
+E01132,Aiden Bryant,Sales,Account Representative,"NLP, Machine Learning, DevOps",In Project (3 months left),Project_492
+E00556,Grayson Walker,Accounting,Director,"NLP, AWS, FastAPI",In Project (3 months left),Project_155
+E00311,Scarlett Figueroa,Human Resources,Business Partner,"React, SQL",In Project (3 months left),Project_188
+E04567,Madeline Hoang,IT,Systems Analyst,"Machine Learning, AWS",Unavailable,Project_536
+E04378,Ezra Simmons,IT,Network Administrator,"AWS, Docker, FastAPI, Data Analysis, Machine Learning",In Project (3 months left),Project_501
+E03251,Ruby Medina,Sales,Director,"DevOps, Python, Data Analysis",Unavailable,Project_283
+E03167,Luke Zheng,Human Resources,Director,"NLP, DevOps, React, Data Analysis",In Project (3 months left),Project_821
+E03347,Rylee Dinh,Engineering,Development Engineer,"NLP, FastAPI, Docker, AWS, DevOps",Unavailable,Project_710
+E03908,Miles Evans,IT,Network Architect,"Machine Learning, DevOps, FastAPI",Unavailable,Project_706
+E01351,Leo Owens,IT,Systems Analyst,"Data Analysis, FastAPI, Docker, SQL",In Project (1 month left),Project_744
+E02681,Caroline Owens,IT,Director,"Docker, AWS, React",In Project (1 month left),Project_956
+E03807,Kennedy Do,IT,Computer Systems Manager,"DevOps, Machine Learning",Available,Project_806
+E00422,Jade Acosta,Engineering,Development Engineer,"FastAPI, SQL",In Project (1 month left),Project_816
+E00265,Mila Vasquez,Engineering,Quality Engineer,"SQL, AWS, React, NLP",In Project (1 month left),Project_556
+E04601,Allison Ayala,Finance,Analyst,"Data Analysis, SQL, NLP",In Project (3 months left),Project_731
+E04816,Jace Zhang,IT,Service Desk Analyst,"Machine Learning, Python, Data Analysis, FastAPI, NLP",Available,Project_464
+E02147,Allison Medina,Finance,Manager,"NLP, Data Analysis, SQL, AWS",In Project (1 month left),Project_419
+E02914,Maria Wilson,Engineering,Vice President,"Python, Machine Learning, SQL",In Project (1 month left),Project_440
+E03268,Everly Coleman,IT,Vice President,"AWS, Docker, Python, FastAPI",Unavailable,Project_937
+E03972,Jordan Gomez,Accounting,Sr. Analyst,"AWS, DevOps, FastAPI, React, Python",Available,Project_302
+E02189,Isla Chavez,Sales,Account Representative,"Python, React",Available,Project_830
+E04290,Hannah Gomez,IT,Technical Architect,"AWS, FastAPI, Data Analysis",Available,Project_876
+E03630,Jacob Davis,Accounting,Director,"React, NLP",Unavailable,Project_786
+E00432,Eli Gupta,Human Resources,Director,"SQL, Python, NLP, DevOps",Available,Project_928
+E03045,Andrew Huynh,Human Resources,Business Partner,"SQL, Docker, DevOps, React, Data Analysis",Available,Project_646
+E01924,Anna Gutierrez,Engineering,Director,"FastAPI, NLP",Unavailable,Project_180
+E04877,Samuel Vega,Marketing,Analyst II,"React, Data Analysis, Python",Available,Project_873
+E02770,Liliana Do,IT,Service Desk Analyst,"NLP, Data Analysis, AWS, Machine Learning",Available,Project_882
+E04590,Isaac Sanders,Human Resources,HRIS Analyst,"FastAPI, Machine Learning",In Project (3 months left),Project_576
+E01977,Raelynn Gupta,Finance,Sr. Manger,"FastAPI, Docker",In Project (1 month left),Project_681
+E01378,Genesis Xiong,IT,System Administrator ,"Data Analysis, DevOps",Available,Project_234
+E04224,Lucas Ramos,Human Resources,Sr. Business Partner,"Data Analysis, Machine Learning",Unavailable,Project_195
+E03423,Santiago f Gonzalez,Sales,Manager,"Python, Machine Learning, SQL, AWS",In Project (3 months left),Project_932
+E01584,Henry Zhu,Marketing,Vice President,"SQL, Machine Learning, AWS",In Project (1 month left),Project_921
+E00788,Emily Contreras,Sales,Analyst II,"Machine Learning, FastAPI",In Project (1 month left),Project_815
+E00207,Hailey Lai,Human Resources,Vice President,"AWS, DevOps, FastAPI, Machine Learning",In Project (3 months left),Project_579
+E00834,Vivian Guzman,Finance,Analyst II,"AWS, SQL, DevOps",Unavailable,Project_199
+E04571,Hadley Contreras,Engineering,Director,"React, NLP",In Project (1 month left),Project_566
+E02652,Nathan Sun,Accounting,Manager,"NLP, Python",In Project (1 month left),Project_417
+E02693,Grace Campos,Engineering,Director,"React, FastAPI, Data Analysis, DevOps",In Project (1 month left),Project_800
+E03359,Autumn Ortiz,Engineering,Field Engineer,"React, Python, NLP, AWS, Data Analysis",Available,Project_759
+E00399,Connor Walker,Finance,Analyst II,"Machine Learning, React",Available,Project_827
+E02971,Mia Wu,IT,Enterprise Architect,"Machine Learning, Data Analysis",In Project (3 months left),Project_884
+E03327,Julia Luong,Accounting,Sr. Manger,"DevOps, Data Analysis, Machine Learning, SQL, NLP",In Project (3 months left),Project_576
+E00900,Eleanor Delgado,Marketing,Sr. Analyst,"Machine Learning, FastAPI, React, Data Analysis, Python",Unavailable,Project_581
+E00836,Addison Roberts,IT,Network Architect,"SQL, Data Analysis, AWS, React, DevOps",Unavailable,Project_337
+E03854,Camila Li,IT,Sr. Manger,"SQL, Docker, Machine Learning, DevOps",In Project (3 months left),Project_329
+E04729,Ezekiel Fong,Sales,Vice President,"React, DevOps, Data Analysis, SQL",Unavailable,Project_247
+E00360,Dylan Thao,Engineering,Director,"Machine Learning, DevOps, Python, Docker, AWS",In Project (1 month left),Project_981
+E02284,Josephine Salazar,Engineering,Field Engineer,"React, Python, SQL, Machine Learning, Data Analysis",In Project (1 month left),Project_731
+E00181,Genesis Hu,Marketing,Sr. Analyst,"Machine Learning, FastAPI, AWS, Python, SQL",Unavailable,Project_364
+E04168,Mila Juarez,Sales,Manager,"Python, AWS, SQL, DevOps, Machine Learning",Unavailable,Project_472
+E02861,Daniel Perry,IT,Enterprise Architect,"Machine Learning, Data Analysis, Python, React",In Project (3 months left),Project_501
+E01357,Paisley Hunter,Engineering,Engineering Manager,"DevOps, Machine Learning, FastAPI",In Project (3 months left),Project_287
+E04387,Everleigh White,IT,Network Architect,"SQL, AWS, Machine Learning, NLP, FastAPI",Unavailable,Project_816
+E03090,Penelope Choi,IT,Technical Architect,"NLP, SQL, Python, Machine Learning",In Project (1 month left),Project_781
+E03591,Piper Sun,Marketing,Director,"DevOps, FastAPI, Data Analysis",Available,Project_438
+E03328,Lucy Johnson,IT,Manager,"React, Docker",Unavailable,Project_907
+E04937,Ian Ngo,Sales,Manager,"NLP, React, DevOps, SQL, Python",In Project (3 months left),Project_981
+E00515,Joseph Vazquez,Accounting,Sr. Manger,"SQL, DevOps, AWS",In Project (3 months left),Project_432
+E01241,Hadley Guerrero,IT,Sr. Manger,"SQL, Machine Learning, FastAPI, DevOps, Python",Unavailable,Project_564
+E03255,Jose Brown,IT,System Administrator ,"React, AWS, FastAPI, Data Analysis",In Project (3 months left),Project_599
+E01711,Benjamin Ford,Finance,Analyst II,"FastAPI, NLP, SQL, DevOps",In Project (1 month left),Project_130
+E00500,Henry Shah,Accounting,Director,"NLP, DevOps, Python",In Project (3 months left),Project_166
+E04972,Ivy Daniels,Human Resources,Sr. Manger,"FastAPI, Machine Learning, DevOps, Data Analysis",Available,Project_586
+E02728,Thomas Chang,Accounting,Sr. Analyst,"Docker, SQL, FastAPI",Available,Project_215
+E04749,Caroline Phan,Finance,Sr. Manger,"Data Analysis, DevOps, Docker, FastAPI",In Project (1 month left),Project_459
+E02023,Maverick Mehta,IT,Systems Analyst,"Docker, SQL, AWS, DevOps, Machine Learning",In Project (3 months left),Project_590
+E03166,Austin Edwards,IT,IT Coordinator,"DevOps, Docker",In Project (3 months left),Project_572
+E02599,Daniel Huang,Human Resources,Vice President,"AWS, FastAPI, Docker, Data Analysis",Unavailable,Project_966
+E01014,Lucas Phan,Marketing,Director,"Data Analysis, FastAPI, Python",Available,Project_274
+E04529,Gabriel Yu,IT,Technical Architect,"FastAPI, AWS",Unavailable,Project_389
+E00085,Mason Watson,IT,Sr. Manger,"AWS, Docker, Machine Learning, DevOps",Unavailable,Project_886
+E00632,Angel Chang,IT,Network Architect,"Machine Learning, FastAPI, React",In Project (3 months left),Project_456
+E02108,Madeline Coleman,Finance,Sr. Manger,"React, NLP",Available,Project_718
+E03802,Thomas Vazquez,Engineering,Director,"AWS, React, SQL, FastAPI",Unavailable,Project_688
+E03685,Silas Hunter,IT,Solutions Architect,"Docker, AWS, FastAPI",In Project (3 months left),Project_230
+E01089,Nicholas Brooks,Accounting,Analyst II,"Docker, Python, FastAPI, DevOps",In Project (1 month left),Project_620
+E03988,Dominic Thomas,Marketing,Analyst II,"Docker, React",Available,Project_205
+E00401,Wesley Adams,IT,System Administrator ,"Docker, Data Analysis, Python",In Project (3 months left),Project_515
+E03429,Ian Wu,Marketing,Sr. Analyst,"FastAPI, React, Docker, NLP, SQL",In Project (1 month left),Project_937
+E02417,Alice Young,Engineering,Automation Engineer,"React, DevOps, SQL, Machine Learning, Python",Unavailable,Project_831
+E00359,Logan Carrillo,Marketing,Sr. Analyst,"DevOps, Data Analysis, Docker",Unavailable,Project_915
+E02044,Caroline Alexander,Human Resources,Business Partner,"NLP, Machine Learning, AWS, DevOps, FastAPI",Unavailable,Project_209
+E01479,Serenity Bailey,IT,IT Systems Architect,"Machine Learning, Data Analysis, AWS, FastAPI",In Project (1 month left),Project_433
+E04962,Elena Tan,Engineering,Vice President,"FastAPI, Docker, SQL, AWS",In Project (1 month left),Project_669
+E02769,Eliza Adams,Sales,Account Representative,"DevOps, SQL, React",Unavailable,Project_765
+E03893,Alice Xiong,Engineering,Vice President,"NLP, AWS, SQL, Python, FastAPI",Unavailable,Project_172
+E00553,Isla Yoon,Engineering,Quality Engineer,"Docker, Data Analysis, NLP, FastAPI, SQL",In Project (1 month left),Project_911
+E03540,Emma Perry,IT,Solutions Architect,"Docker, Machine Learning, NLP, Data Analysis",In Project (3 months left),Project_409
+E02769,Riley Marquez,Finance,Sr. Manger,"DevOps, FastAPI, Docker",Available,Project_645
+E03277,Caroline Hu,Marketing,Sr. Manger,"React, DevOps, Python, FastAPI, NLP",Unavailable,Project_572
+E04194,Madison Kumar,Accounting,Director,"NLP, Docker, Machine Learning, Python, Data Analysis",In Project (1 month left),Project_510
+E01807,Matthew Lim,Sales,Sr. Analyst,"DevOps, Docker, React, FastAPI",In Project (3 months left),Project_704
+E01762,Maya Ngo,Sales,Manager,"SQL, Data Analysis",In Project (3 months left),Project_523
+E02632,Alice Soto,Accounting,Analyst,"React, Machine Learning, Data Analysis",In Project (3 months left),Project_344
+E04226,Andrew Moore,Engineering,Operations Engineer,"Python, Data Analysis, Docker, React",Unavailable,Project_735
+E04101,Olivia Harris,Sales,Director,"Machine Learning, FastAPI, React",In Project (1 month left),Project_349
+E01981,Genesis Banks,Finance,Analyst,"Data Analysis, FastAPI",Available,Project_661
+E02534,Victoria Johnson,Accounting,Sr. Manger,"FastAPI, React, SQL, DevOps, Python",In Project (1 month left),Project_262
+E01238,Eloise Griffin,Sales,Director,"Machine Learning, Docker, FastAPI, Data Analysis, SQL",In Project (1 month left),Project_593
+E01118,Roman Yang,Human Resources,Manager,"Docker, FastAPI, Data Analysis",In Project (3 months left),Project_493
+E04041,Clara Huynh,IT,IT Coordinator,"Python, Docker",Available,Project_167
+E04308,Kai Flores,Engineering,Development Engineer,"Machine Learning, DevOps, FastAPI",Unavailable,Project_448
+E01052,Jaxson Dinh,Marketing,Sr. Manger,"Docker, FastAPI, AWS",Unavailable,Project_313
+E04165,Sophie Vang,Marketing,Sr. Manger,"Docker, Machine Learning, AWS, NLP",In Project (3 months left),Project_933
+E02295,Axel Jordan,Sales,Analyst,"Docker, Machine Learning, DevOps, FastAPI",Unavailable,Project_810
+E04546,Jade Hunter,IT,Cloud Infrastructure Architect,"DevOps, Python, Machine Learning, AWS",In Project (1 month left),Project_705
+E04217,Lydia Williams,IT,System Administrator ,"Data Analysis, React",In Project (3 months left),Project_541
+E00650,Emery Chang,Human Resources,Business Partner,"Docker, DevOps",Available,Project_903
+E00344,Savannah He,IT,Director,"Docker, NLP, Python, React",In Project (1 month left),Project_545
+E04645,Elias Ahmed,Marketing,Vice President,"AWS, FastAPI, Data Analysis, SQL, Machine Learning",Available,Project_680
+E03880,Samantha Woods,Accounting,Analyst,"Python, SQL, NLP",Available,Project_906
+E02730,Axel Soto,Engineering,Quality Engineer,"DevOps, Machine Learning",In Project (1 month left),Project_450
+E04517,Amelia Choi,Marketing,Manager,"AWS, Data Analysis, NLP, DevOps, React",Available,Project_657
+E00965,Jacob Khan,IT,Computer Systems Manager,"Python, AWS, NLP, React, FastAPI",In Project (3 months left),Project_810
+E04639,Luna Taylor,IT,Network Administrator,"FastAPI, Data Analysis, Machine Learning, SQL, NLP",In Project (3 months left),Project_341
+E00465,Dominic Parker,Engineering,Test Engineer,"FastAPI, Machine Learning, React, DevOps",In Project (1 month left),Project_277
+E03058,Angel Xiong,IT,Vice President,"NLP, Docker, React, DevOps, AWS",Unavailable,Project_778
+E02337,Emma Cao,Accounting,Analyst,"React, Docker, NLP",Available,Project_785
+E04927,Ezekiel Bryant,Finance,Sr. Analyst,"Machine Learning, DevOps, Docker, React, FastAPI",In Project (1 month left),Project_179
+E03799,Natalie Hwang,Finance,Sr. Analyst,"React, SQL, Data Analysis, NLP",Available,Project_857
+E04538,Adeline Yang,IT,Cloud Infrastructure Architect,"AWS, React, Python, Docker",In Project (1 month left),Project_828
+E02633,Allison Roberts,Sales,Vice President,"Machine Learning, DevOps",Available,Project_687
+E02965,Andrew Do,Finance,Sr. Manger,"DevOps, NLP, FastAPI, Data Analysis",Unavailable,Project_956
+E04345,Eliana Grant,Engineering,Engineering Manager,"FastAPI, React, AWS, Python",In Project (1 month left),Project_598
+E02895,Mila Soto,Finance,Director,"NLP, Python, Docker",In Project (3 months left),Project_217
+E01132,Gabriella Johnson,IT,Computer Systems Manager,"Python, SQL, Data Analysis",Unavailable,Project_706
+E00758,Jonathan Khan,Sales,Account Representative,"DevOps, SQL, AWS, Python",In Project (3 months left),Project_710
+E03750,Elias Dang,Engineering,Director,"Data Analysis, DevOps, FastAPI",Unavailable,Project_574
+E00144,Theodore Ngo,Engineering,Controls Engineer,"React, Machine Learning, Docker",In Project (3 months left),Project_433
+E02943,Bella Lopez,Marketing,Sr. Analyst,"SQL, NLP",Unavailable,Project_668
+E03901,Luca Truong,Marketing,Director,"AWS, Data Analysis",Available,Project_199
+E03461,Nathan Lau,Human Resources,Business Partner,"Python, Data Analysis, DevOps",In Project (3 months left),Project_941
+E03490,Henry Campos,Human Resources,Sr. Manger,"React, Python, FastAPI",Available,Project_555
+E04466,Connor Bell,IT,Network Administrator,"Docker, SQL, Machine Learning, AWS",In Project (1 month left),Project_280
+E03226,Angel Stewart,Finance,Vice President,"FastAPI, Docker, DevOps, SQL, React",Available,Project_415
+E04607,Landon Brown,Marketing,Vice President,"React, NLP, SQL, AWS, DevOps",In Project (3 months left),Project_515
+E02678,Nicholas Rivera,Engineering,Director,"React, AWS, Python, Machine Learning, FastAPI",Unavailable,Project_171
+E02190,Gabriel Carter,Engineering,Test Engineer,"Docker, NLP, AWS, React",Available,Project_712
+E00747,Leilani Baker,IT,Technical Architect,"Data Analysis, FastAPI, Machine Learning, Python, NLP",Unavailable,Project_211
+E00268,Ian Flores,Engineering,Director,"AWS, Docker",In Project (1 month left),Project_801
+E01416,Hudson Thompson,Accounting,Analyst II,"Machine Learning, NLP, Python, AWS, FastAPI",In Project (1 month left),Project_933
+E01524,Ian Miller,IT,Computer Systems Manager,"DevOps, React, Machine Learning",In Project (3 months left),Project_710
+E03849,Harper Chin,Engineering,Quality Engineer,"Docker, Python, React, Machine Learning",Unavailable,Project_889
+E02801,Santiago f Brooks,Sales,Sr. Manger,"NLP, Python, SQL, Docker",Available,Project_939
+E04155,Dylan Dominguez,Marketing,Sr. Analyst,"AWS, Data Analysis, React, Machine Learning",Available,Project_488
+E01952,Everett Lee,IT,Network Administrator,"React, Machine Learning",In Project (1 month left),Project_435
+E00116,Madelyn Mehta,Sales,Analyst,"NLP, AWS, DevOps",Unavailable,Project_606
+E04811,Athena Vasquez,Engineering,Field Engineer,"DevOps, Machine Learning, Data Analysis",Unavailable,Project_760
+E00624,William Watson,Accounting,Director,"FastAPI, NLP, Docker, Machine Learning, React",In Project (1 month left),Project_776
+E03404,Everleigh Nunez,Engineering,Field Engineer,"FastAPI, DevOps",Available,Project_162
+E01845,Leo Fernandez,Finance,Manager,"SQL, Docker, Python, Data Analysis",In Project (1 month left),Project_192
+E04784,Joshua Lin,IT,Technical Architect,"Docker, FastAPI, AWS",Unavailable,Project_322
+E00145,Alexander Rivera,Sales,Sr. Analyst,"Machine Learning, FastAPI, DevOps",Available,Project_936
+E00218,David Desai,Sales,Vice President,"NLP, DevOps",In Project (1 month left),Project_242
+E02185,Aubrey Yoon,Human Resources,Sr. Business Partner,"FastAPI, DevOps",Unavailable,Project_694
+E01070,Grayson Brown,IT,Vice President,"DevOps, AWS",Unavailable,Project_873
+E03807,Noah Chen,Marketing,Sr. Manger,"DevOps, Python, Docker, Machine Learning, AWS",In Project (3 months left),Project_751
+E00784,Ella Nguyen,IT,Service Desk Analyst,"Data Analysis, React",In Project (3 months left),Project_929
+E04925,Athena Jordan,IT,System Administrator ,"NLP, SQL",In Project (1 month left),Project_100
+E04448,Adrian Ruiz,Finance,Sr. Analyst,"Data Analysis, Machine Learning",Available,Project_875
+E04817,Zoe Sanchez,Accounting,Sr. Analyst,"FastAPI, Python",Available,Project_250
+E00325,Jameson Chen,Marketing,Vice President,"DevOps, Python",In Project (3 months left),Project_776
+E00403,Liliana Soto,Human Resources,Business Partner,"Data Analysis, AWS, FastAPI, Docker",Unavailable,Project_252
+E00436,Lincoln Reyes,IT,Computer Systems Manager,"Machine Learning, Data Analysis, DevOps, FastAPI, NLP",In Project (3 months left),Project_563
+E04358,Grayson Soto,Human Resources,Business Partner,"SQL, FastAPI, AWS, Machine Learning, DevOps",In Project (1 month left),Project_644
+E04662,Julia Morris,Human Resources,Sr. Manger,"AWS, FastAPI",In Project (3 months left),Project_398
+E01496,Ava Ortiz,IT,Enterprise Architect,"FastAPI, AWS, NLP, Data Analysis, Python",Available,Project_499
+E01870,Carson Chau,Finance,Director,"React, DevOps",In Project (1 month left),Project_730
+E03971,Lillian Chen,Marketing,Sr. Manger,"FastAPI, Data Analysis, NLP, SQL, DevOps",Available,Project_691
+E03616,Josiah Lewis,IT,Manager,"AWS, React, NLP, Machine Learning",In Project (1 month left),Project_557
+E00153,Claire Jones,Engineering,Field Engineer,"Python, Data Analysis",Unavailable,Project_300
+E02313,Jeremiah Lu,IT,Network Architect,"NLP, Docker",In Project (3 months left),Project_310
+E02960,Nova Hill,Accounting,Sr. Analyst,"SQL, Python",Available,Project_797
+E00096,Peyton Cruz,Engineering,Development Engineer,"Docker, Python, NLP, Machine Learning, FastAPI",In Project (1 month left),Project_998
+E02140,Naomi Zhao,Human Resources,Vice President,"DevOps, NLP, FastAPI, Data Analysis, Python",In Project (3 months left),Project_424
+E00826,Rylee Bui,Accounting,Analyst,"FastAPI, React, NLP",Available,Project_406
+E03881,Andrew Reed,IT,System Administrator ,"Docker, Machine Learning, NLP, AWS",Unavailable,Project_683
+E02604,Brooklyn Collins,Finance,Sr. Manger,"FastAPI, NLP, Data Analysis",In Project (1 month left),Project_913
+E02613,John Jung,Sales,Sr. Analyst,"React, Python, AWS, Machine Learning",Available,Project_795
+E00864,Samantha Aguilar,Accounting,Manager,"FastAPI, DevOps, Python, AWS, Machine Learning",Available,Project_411
+E01760,Madeline Acosta,Sales,Sr. Account Representative,"FastAPI, Machine Learning, Data Analysis, NLP, SQL",Unavailable,Project_545
+E03223,Ethan Joseph,IT,IT Coordinator,"Data Analysis, AWS, DevOps, SQL",In Project (1 month left),Project_835
+E01262,Miles Mehta,Finance,Manager,"React, AWS, DevOps",In Project (3 months left),Project_452
+E01075,Joshua Juarez,Finance,Analyst II,"FastAPI, Data Analysis",Available,Project_191
+E00364,Matthew Howard,Human Resources,Director,"FastAPI, Docker, AWS, NLP, SQL",In Project (1 month left),Project_696
+E04108,Jade Figueroa,Sales,Sr. Analyst,"NLP, Machine Learning, SQL, Docker",In Project (1 month left),Project_108
+E02917,Everett Morales,IT,Solutions Architect,"SQL, FastAPI, NLP, Python",Unavailable,Project_726
+E03720,Genesis Hunter,Finance,Manager,"Data Analysis, Python, SQL, DevOps",Available,Project_622
+E03393,Henry Figueroa,Finance,Sr. Manger,"DevOps, NLP, Machine Learning",In Project (3 months left),Project_513
+E02977,Nicholas Song,Marketing,Analyst II,"Python, NLP, FastAPI, Machine Learning",Available,Project_967
+E03371,Jack Alexander,IT,Vice President,"DevOps, NLP",Available,Project_230
+E02531,Jameson Foster,Marketing,Analyst,"Data Analysis, NLP, Machine Learning",In Project (3 months left),Project_972
+E02473,Leonardo Lo,Engineering,Quality Engineer,"Data Analysis, DevOps, Machine Learning, AWS",In Project (1 month left),Project_401
+E02468,Ella Huang,Marketing,Vice President,"Machine Learning, FastAPI, DevOps, NLP",Available,Project_163
+E01499,Liam Jordan,IT,Computer Systems Manager,"DevOps, Machine Learning",In Project (1 month left),Project_478
+E03697,Isaac Woods,Sales,Manager,"Machine Learning, Docker, Data Analysis",Unavailable,Project_662
+E00593,Luke Wilson,IT,Solutions Architect,"Docker, NLP",In Project (1 month left),Project_154
+E01103,Lyla Alvarez,IT,IT Systems Architect,"Python, React, Data Analysis",In Project (3 months left),Project_100
+E03889,Caleb Flores,Human Resources,Manager,"AWS, NLP, Machine Learning, SQL",In Project (3 months left),Project_820
+E01958,Angel Lin,IT,Network Administrator,"Docker, NLP, DevOps, React, Machine Learning",Unavailable,Project_673
+E01870,Easton Moore,IT,Computer Systems Manager,"React, DevOps, FastAPI, NLP",In Project (1 month left),Project_940
+E01167,Kinsley Collins,Engineering,Automation Engineer,"Machine Learning, AWS, FastAPI",Available,Project_467
+E00099,Brooklyn Salazar,IT,IT Systems Architect,"AWS, FastAPI, Python, React, DevOps",Unavailable,Project_212
+E00044,Scarlett Jenkins,IT,Vice President,"Python, Docker",In Project (3 months left),Project_981
+E00711,Melody Chin,Finance,Sr. Manger,"AWS, NLP, SQL, Machine Learning, DevOps",In Project (1 month left),Project_388
+E04795,Eloise Alexander,Human Resources,Vice President,"NLP, FastAPI",In Project (3 months left),Project_986
+E03912,Carter Turner,Marketing,Sr. Analyst,"Machine Learning, Python, DevOps, Docker, NLP",Available,Project_131
+E02103,Andrew Ma,Human Resources,HRIS Analyst,"Python, FastAPI",Unavailable,Project_340
+E04213,Hailey Xi,Accounting,Manager,"Python, Docker, React, DevOps, AWS",Unavailable,Project_542
+E04756,Aiden Le,IT,Cloud Infrastructure Architect,"FastAPI, Data Analysis",In Project (3 months left),Project_819
+E04114,Christopher Lim,IT,Director,"SQL, Docker, AWS",Unavailable,Project_704
+E01423,James Castillo,IT,Vice President,"NLP, FastAPI, React",In Project (1 month left),Project_503
+E03181,Greyson Dang,Engineering,Development Engineer,"React, Data Analysis, SQL, AWS",In Project (1 month left),Project_740
+E03305,Hannah King,Accounting,Manager,"DevOps, NLP, FastAPI, AWS, Machine Learning",In Project (3 months left),Project_425
+E00703,Wesley Dominguez,Engineering,Engineering Manager,"Python, SQL",In Project (3 months left),Project_828
+E04403,Dominic Hu,Accounting,Manager,"Data Analysis, Docker, DevOps, Python, Machine Learning",Unavailable,Project_491
+E00103,Nora Park,Accounting,Director,"AWS, SQL",In Project (3 months left),Project_515
+E04487,Audrey Hwang,Accounting,Sr. Analyst,"Data Analysis, Machine Learning, SQL, React, Python",In Project (1 month left),Project_490
+E01194,Ella Jenkins,Finance,Analyst II,"NLP, DevOps, React",Available,Project_545
+E02179,Peyton Owens,Engineering,Controls Engineer,"SQL, React",In Project (1 month left),Project_658
+E04242,Alice Lopez,Engineering,Test Engineer,"AWS, Machine Learning",Unavailable,Project_316
+E01371,Dominic Le,Marketing,Vice President,"NLP, AWS",In Project (3 months left),Project_778
+E03065,Ezra Ortiz,Engineering,Quality Engineer,"SQL, React, AWS, FastAPI, Docker",In Project (3 months left),Project_277
+E01377,Grayson Luu,Engineering,Quality Engineer,"FastAPI, Machine Learning, Data Analysis, DevOps, Docker",In Project (3 months left),Project_586
+E03097,Brooks Stewart,Human Resources,HRIS Analyst,"SQL, FastAPI, Machine Learning",Unavailable,Project_242
+E01668,Naomi Xi,Finance,Director,"SQL, Data Analysis",Available,Project_292
+E03354,Silas Estrada,IT,IT Systems Architect,"SQL, Machine Learning, Data Analysis",Unavailable,Project_668
+E02088,Skylar Ayala,Finance,Sr. Manger,"Python, React, DevOps, NLP",In Project (1 month left),Project_493
+E03980,Lydia Huynh,Sales,Account Representative,"Machine Learning, FastAPI, Data Analysis",Available,Project_963
+E00972,Hazel Cortez,Human Resources,HRIS Analyst,"AWS, Data Analysis, SQL, FastAPI, React",In Project (3 months left),Project_468
+E00824,Everleigh Adams,Marketing,Analyst II,"NLP, SQL, FastAPI, AWS",In Project (1 month left),Project_960
+E04359,Layla Salazar,IT,Solutions Architect,"Data Analysis, AWS, Docker",In Project (3 months left),Project_527
+E03113,Willow Chen,Accounting,Manager,"Machine Learning, SQL, FastAPI, Python",Available,Project_257
+E01488,Penelope Griffin,Sales,Director,"DevOps, Machine Learning, React, Python",Unavailable,Project_395
+E01787,Lillian Romero,Engineering,Director,"SQL, AWS, Data Analysis",In Project (1 month left),Project_993
+E03550,Stella Wu,Marketing,Sr. Manger,"FastAPI, Docker, Data Analysis, Python, DevOps",Unavailable,Project_786
+E01052,Parker Vang,Sales,Analyst,"Machine Learning, FastAPI",In Project (1 month left),Project_228
+E04799,Mila Roberts,Human Resources,Sr. Business Partner,"Docker, Machine Learning",In Project (3 months left),Project_237
+E03402,Isaac Liu,Engineering,Field Engineer,"Python, React, Data Analysis, NLP, Docker",In Project (3 months left),Project_111
+E04128,Jacob Doan,Sales,Analyst II,"Docker, FastAPI, AWS",Unavailable,Project_173
+E00013,Raelynn Ma,Finance,Sr. Analyst,"AWS, Docker, React, FastAPI, Data Analysis",In Project (3 months left),Project_763
+E03114,Jameson Juarez,Engineering,Development Engineer,"AWS, SQL, Docker, NLP, DevOps",Available,Project_116
+E04004,Everleigh Shah,Engineering,Test Engineer,"React, DevOps, SQL, AWS, Data Analysis",Available,Project_247
+E04472,Alexander Foster,Marketing,Analyst II,"DevOps, NLP, Docker",Available,Project_838
+E00161,Ryan Ha,Marketing,Vice President,"AWS, React",Available,Project_598
+E04417,Chloe Salazar,Human Resources,Sr. Manger,"Data Analysis, Machine Learning",In Project (1 month left),Project_773
+E04536,Layla Scott,Accounting,Sr. Manger,"Machine Learning, DevOps, Docker, NLP, FastAPI",In Project (1 month left),Project_547
+E02534,Leah Khan,Marketing,Director,"React, Machine Learning, NLP",Available,Project_239
+E02857,Mason Jimenez,Finance,Sr. Manger,"Machine Learning, AWS, Data Analysis, FastAPI, DevOps",In Project (1 month left),Project_186
+E03059,Hailey Dang,Marketing,Manager,"Docker, NLP, Machine Learning, FastAPI, AWS",Available,Project_240
+E02477,Amelia Bui,Engineering,Director,"Machine Learning, SQL, NLP, React, Data Analysis",Unavailable,Project_757
+E00022,Elena Her,Sales,Account Representative,"FastAPI, Python, DevOps",In Project (1 month left),Project_925
+E03370,Ian Cortez,Marketing,Analyst II,"DevOps, React, SQL",Available,Project_525
+E00555,Christian Ali,Marketing,Analyst II,"DevOps, AWS, React, SQL, FastAPI",Available,Project_980
+E03160,Carter Ortiz,Engineering,Quality Engineer,"Data Analysis, Docker, SQL",Unavailable,Project_566
+E03919,Grayson Chan,Engineering,Engineering Manager,"Docker, DevOps, Data Analysis, React, FastAPI",Unavailable,Project_907
+E01724,Nolan Molina,IT,Computer Systems Manager,"FastAPI, Python, Machine Learning, DevOps, React",In Project (3 months left),Project_812
+E04087,Adam Kaur,IT,Manager,"SQL, NLP",Available,Project_718
+E02856,Amelia Kaur,Engineering,Operations Engineer,"AWS, Python, Data Analysis, DevOps",In Project (3 months left),Project_535
+E03805,Autumn Gonzales,Sales,Analyst II,"Data Analysis, SQL, Python, DevOps",In Project (1 month left),Project_738
+E00319,Ezra Wilson,IT,Service Desk Analyst,"NLP, FastAPI, Docker, DevOps",Available,Project_284
+E01090,Jacob Cheng,Engineering,Quality Engineer,"Data Analysis, DevOps, AWS, FastAPI",Available,Project_565
+E04323,Melody Valdez,IT,Director,"DevOps, SQL",In Project (1 month left),Project_621
+E02687,Caroline Nelson,Finance,Vice President,"Data Analysis, SQL, FastAPI, Docker",Unavailable,Project_534
+E01407,Ellie Guerrero,Human Resources,Sr. Manger,"Machine Learning, React, Docker",Available,Project_665
+E02748,Genesis Zhu,Finance,Director,"NLP, FastAPI, DevOps, AWS, Docker",Unavailable,Project_939
+E01995,Jonathan Ho,IT,Vice President,"DevOps, Docker",Available,Project_560
+E01714,Savannah Park,Human Resources,HRIS Analyst,"SQL, React, Python, Data Analysis",In Project (3 months left),Project_493
+E04491,Nathan Chan,IT,Cloud Infrastructure Architect,"Python, Machine Learning",Unavailable,Project_463
+E01076,Sofia Vu,Human Resources,Sr. Manger,"AWS, NLP",In Project (3 months left),Project_331
+E04131,Ruby Choi,Accounting,Analyst,"FastAPI, AWS, Machine Learning",Available,Project_290
+E02843,Lily Pena,Human Resources,Manager,"DevOps, NLP, Data Analysis, Machine Learning, SQL",In Project (3 months left),Project_534
+E03758,Liam Zhang,Marketing,Director,"Data Analysis, Docker, Python",Available,Project_719
+E02063,Ian Gutierrez,Human Resources,Sr. Business Partner,"DevOps, Data Analysis, FastAPI",Available,Project_107
+E00638,David Simmons,Marketing,Manager,"NLP, Docker",In Project (3 months left),Project_691
+E03571,Lincoln Henderson,Human Resources,Business Partner,"SQL, Docker, AWS, DevOps",Available,Project_610
+E01820,Nathan Miller,Engineering,Quality Engineer,"NLP, DevOps, SQL, AWS",In Project (1 month left),Project_967
+E01712,James Singh,Marketing,Director,"FastAPI, Machine Learning, Data Analysis, React, NLP",Available,Project_848
+E00184,Kayden Ortega,Accounting,Analyst,"Machine Learning, Docker",Available,Project_342
+E02706,Lucy Figueroa,Finance,Sr. Manger,"Docker, AWS, React, DevOps, Data Analysis",In Project (1 month left),Project_829
+E02899,Joshua Cortez,Finance,Sr. Manger,"AWS, Machine Learning",Unavailable,Project_613
+E02478,Alexander Morris,Sales,Manager,"NLP, React",In Project (1 month left),Project_375
+E04170,Grayson Chin,IT,Vice President,"AWS, Machine Learning",In Project (1 month left),Project_520
+E00929,Allison Espinoza,IT,Solutions Architect,"FastAPI, Data Analysis, Docker",In Project (1 month left),Project_659
+E00530,Naomi Chu,Sales,Sr. Manger,"Docker, Data Analysis, FastAPI",In Project (1 month left),Project_690
+E03824,Jameson Martin,IT,Technical Architect,"DevOps, FastAPI, AWS",Unavailable,Project_475
+E02492,Sebastian Gupta,Marketing,Sr. Analyst,"DevOps, React, AWS",Available,Project_134
+E01733,Eloise Pham,Sales,Manager,"Machine Learning, DevOps, Python",In Project (3 months left),Project_138
+E02857,Valentina Davis,Sales,Analyst,"Python, DevOps, AWS, SQL",Unavailable,Project_681
+E04938,Brooklyn Daniels,Marketing,Analyst,"FastAPI, Docker, DevOps, NLP, Machine Learning",Unavailable,Project_594
+E04952,Paisley Gomez,Sales,Sr. Analyst,"Data Analysis, DevOps, FastAPI, SQL, Python",Available,Project_821
+E02420,Madison Li,Marketing,Director,"NLP, React",In Project (1 month left),Project_477
+E01639,Everleigh Simmons,Finance,Analyst,"React, NLP",In Project (1 month left),Project_215
+E03947,Logan Soto,Finance,Vice President,"AWS, DevOps, FastAPI, React",Unavailable,Project_694
+E04535,Charlotte Vo,IT,System Administrator ,"Docker, SQL",In Project (3 months left),Project_593
+E00380,Alice Thompson,Accounting,Vice President,"FastAPI, Machine Learning, Python, Data Analysis",In Project (1 month left),Project_807
+E01432,Peyton Garza,IT,Systems Analyst,"FastAPI, NLP, Data Analysis, Python, Machine Learning",Unavailable,Project_181
+E02628,Nora Nelson,Finance,Analyst II,"React, Python, DevOps",In Project (3 months left),Project_245
+E03578,Maverick Li,Sales,Analyst II,"Machine Learning, SQL, DevOps, Data Analysis",In Project (3 months left),Project_847
+E03563,Ian Barnes,Engineering,Operations Engineer,"NLP, Docker",In Project (3 months left),Project_848
+E02781,Athena Vu,Accounting,Director,"Docker, Data Analysis, AWS, React",In Project (3 months left),Project_639
+E04739,Ruby Washington,Marketing,Analyst,"NLP, Docker, Python",Unavailable,Project_979
+E02665,Bella Butler,Finance,Sr. Manger,"FastAPI, React, AWS, DevOps",Unavailable,Project_868
+E04132,Kinsley Henry,Marketing,Director,"React, Docker, SQL, DevOps",In Project (3 months left),Project_897
+E00276,Kennedy Romero,Engineering,Engineering Manager,"Python, React, AWS, Machine Learning, SQL",In Project (1 month left),Project_386
+E04277,Zoe Do,Sales,Analyst II,"AWS, Machine Learning, NLP",In Project (1 month left),Project_576
+E03890,Everett Khan,IT,Solutions Architect,"DevOps, AWS, React, Machine Learning, NLP",Unavailable,Project_629
+E02012,Anna Han,IT,System Administrator ,"DevOps, SQL, FastAPI, NLP, React",In Project (3 months left),Project_180
+E02881,Leilani Sharma,Accounting,Sr. Analyst,"Machine Learning, DevOps, FastAPI, AWS",In Project (3 months left),Project_635
+E03750,Jordan Cho,Accounting,Analyst II,"SQL, DevOps",Unavailable,Project_724
+E00605,Nova Williams,Finance,Manager,"SQL, FastAPI, Data Analysis, Docker",Unavailable,Project_190
+E04641,Scarlett Hill,Engineering,Director,"NLP, DevOps, React, AWS, Data Analysis",Unavailable,Project_351
+E01019,Dominic Scott,Sales,Sr. Analyst,"FastAPI, AWS, DevOps, Data Analysis",Available,Project_583
+E01519,Anthony Marquez,IT,Vice President,"Python, Docker, SQL, Machine Learning",Available,Project_745
+E03694,Elena Patterson,Finance,Vice President,"Python, SQL, AWS, NLP, Data Analysis",In Project (3 months left),Project_859
+E01123,Madison Nelson,Accounting,Director,"Data Analysis, NLP",Available,Project_779
+E01366,William Walker,IT,Computer Systems Manager,"React, AWS, Docker",In Project (1 month left),Project_784
+E04005,Lincoln Wong,Finance,Sr. Analyst,"Machine Learning, React",In Project (3 months left),Project_179
+E02770,James Huang,Human Resources,Manager,"Machine Learning, AWS",Available,Project_800
+E04018,Emery Ford,Marketing,Analyst II,"Data Analysis, React",In Project (3 months left),Project_748
+E01591,Paisley Trinh,IT,Technical Architect,"Data Analysis, SQL, FastAPI",In Project (1 month left),Project_652
+E04940,Hudson Williams,Sales,Vice President,"NLP, DevOps",In Project (1 month left),Project_917
+E03465,Harper Phan,Finance,Analyst II,"AWS, NLP",In Project (3 months left),Project_693
+E03870,Madeline Allen,IT,Cloud Infrastructure Architect,"Python, Docker, Machine Learning, Data Analysis, FastAPI",Available,Project_419
+E01927,Charles Moore,IT,Technical Architect,"AWS, DevOps, SQL, FastAPI, NLP",In Project (3 months left),Project_727
+E03064,Lincoln Fong,Sales,Analyst II,"SQL, Docker",In Project (1 month left),Project_154
+E01883,Isla Guzman,Accounting,Sr. Manger,"Machine Learning, React, AWS, NLP",Available,Project_451
+E03984,Hailey Foster,Engineering,Controls Engineer,"AWS, SQL, Python",Available,Project_647
+E00446,Hudson Hill,Sales,Sr. Analyst,"DevOps, Machine Learning, NLP",Unavailable,Project_897
+E02825,Wyatt Li,Engineering,Vice President,"Data Analysis, DevOps, NLP",In Project (3 months left),Project_111
+E04174,Maverick Henry,IT,Computer Systems Manager,"SQL, AWS",In Project (1 month left),Project_580
+E01899,Xavier Jackson,Marketing,Vice President,"Docker, Data Analysis",In Project (1 month left),Project_564
+E02562,Christian Medina,Marketing,Analyst,"Data Analysis, Machine Learning, AWS, SQL",In Project (3 months left),Project_624
+E01006,Autumn Leung,Finance,Vice President,"SQL, NLP, React, Data Analysis",In Project (3 months left),Project_580
+E02903,Robert Vazquez,IT,System Administrator ,"React, NLP",In Project (1 month left),Project_687
+E03642,Aria Roberts,Accounting,Manager,"Data Analysis, React, Python",In Project (1 month left),Project_851
+E02884,Axel Johnson,Human Resources,Director,"DevOps, Data Analysis, SQL",In Project (3 months left),Project_439
+E00701,Madeline Garcia,Human Resources,Sr. Business Partner,"DevOps, SQL, Python",In Project (3 months left),Project_531
+E04720,Christopher Chung,Engineering,Controls Engineer,"Machine Learning, AWS, Data Analysis, DevOps",Available,Project_461
+E01985,Eliana Turner,Sales,Account Representative,"Machine Learning, FastAPI, AWS, Data Analysis, NLP",Unavailable,Project_917
+E03273,Daniel Shah,Sales,Analyst II,"Python, SQL",In Project (1 month left),Project_401
+E02415,Penelope Gonzalez,Sales,Sr. Analyst,"React, NLP",Available,Project_396
+E02877,Mila Allen,Engineering,Controls Engineer,"Python, Data Analysis",In Project (3 months left),Project_271
+E00091,Emilia Chu,Finance,Analyst II,"FastAPI, Data Analysis, Docker, Machine Learning",Unavailable,Project_136
+E02563,Emily Clark,Accounting,Vice President,"SQL, FastAPI, AWS, DevOps, Python",In Project (1 month left),Project_811
+E04221,Roman King,Finance,Analyst II,"SQL, FastAPI, NLP, Data Analysis",Unavailable,Project_711
+E04887,Emery Do,Sales,Account Representative,"FastAPI, Machine Learning, Data Analysis",Available,Project_867
+E03170,Autumn Thao,Sales,Account Representative,"React, Data Analysis",In Project (3 months left),Project_411
+E01636,Naomi Coleman,Marketing,Manager,"Python, NLP, SQL",Available,Project_844
+E01387,Cora Zheng,IT,Director,"SQL, DevOps, Python, AWS, Machine Learning",Unavailable,Project_903
+E01363,Ayla Daniels,IT,Technical Architect,"SQL, Python, AWS",Available,Project_677
+E02249,Allison Daniels,Finance,Manager,"AWS, DevOps",Available,Project_366
+E02987,Mateo Harris,IT,Manager,"FastAPI, Docker, React, SQL",In Project (3 months left),Project_162
+E03655,Samantha Rogers,Marketing,Analyst,"AWS, React, SQL, Data Analysis",In Project (3 months left),Project_744
+E04048,Julian Lee,IT,IT Systems Architect,"Machine Learning, Data Analysis",Unavailable,Project_584
+E03626,Nicholas Avila,IT,Enterprise Architect,"FastAPI, SQL, React, Machine Learning",Unavailable,Project_692
+E03694,Hailey Watson,Accounting,Sr. Manger,"DevOps, Docker",Available,Project_273
+E02920,Willow Woods,Human Resources,Vice President,"Python, DevOps, AWS, FastAPI",In Project (1 month left),Project_686
+E03220,Alexander Gonzales,Accounting,Manager,"React, SQL, FastAPI",Available,Project_152
+E01347,Aiden Gonzales,Marketing,Vice President,"FastAPI, Python, Docker",Unavailable,Project_772
+E03968,Joshua Chin,Marketing,Sr. Manger,"NLP, Python",Available,Project_398
+E04299,Paisley Hall,Human Resources,Director,"Machine Learning, Data Analysis, AWS, SQL, Python",In Project (3 months left),Project_928
+E01150,Allison Leung,Sales,Sr. Analyst,"NLP, Machine Learning, Docker, DevOps, FastAPI",Available,Project_855
+E03774,Hannah Mejia,Marketing,Vice President,"React, SQL, Machine Learning, Python",In Project (3 months left),Project_739
+E01638,Elizabeth Huang,Finance,Analyst,"AWS, NLP",In Project (1 month left),Project_127
+E01877,Abigail Garza,Accounting,Analyst,"Data Analysis, SQL",In Project (3 months left),Project_393
+E01193,Raelynn Lu,Finance,Director,"React, Docker, Machine Learning, Python, FastAPI",In Project (1 month left),Project_596
+E01789,Charles Luu,Sales,Sr. Manger,"Python, Machine Learning, NLP, AWS, React",In Project (1 month left),Project_184
+E01422,Lydia Espinoza,Marketing,Sr. Manger,"Docker, NLP, DevOps, AWS",Available,Project_229
+E00440,Adeline Thao,Finance,Vice President,"NLP, FastAPI, Docker, SQL, Python",Unavailable,Project_617
+E00145,Kinsley Dixon,Accounting,Analyst,"Python, NLP, Machine Learning, DevOps, Data Analysis",Unavailable,Project_178
+E04150,Natalia Vu,Accounting,Analyst,"Machine Learning, Python",Available,Project_971
+E02846,Julia Mai,Marketing,Manager,"React, SQL, NLP, Docker, FastAPI",In Project (1 month left),Project_902
+E04247,Camila Evans,Marketing,Manager,"DevOps, Python, AWS, Machine Learning, Docker",Unavailable,Project_384
+E02613,Everly Lai,Marketing,Vice President,"Python, NLP",In Project (3 months left),Project_358
+E03349,Adam He,Accounting,Director,"Machine Learning, DevOps, SQL, React, Python",Unavailable,Project_235
+E03648,Vivian Hunter,Sales,Account Representative,"Data Analysis, SQL, Python",In Project (1 month left),Project_730
+E02192,Lucy Avila,IT,Solutions Architect,"AWS, NLP, React, Docker, Data Analysis",In Project (1 month left),Project_387
+E03981,Eliana Li,Engineering,Test Engineer,"Machine Learning, Docker, DevOps, AWS, SQL",In Project (3 months left),Project_381
+E03262,Logan Mitchell,Marketing,Analyst II,"NLP, AWS",Available,Project_978
+E02716,Dominic Dinh,Marketing,Sr. Manger,"AWS, SQL",Unavailable,Project_363
+E00245,Lucas Daniels,Sales,Manager,"DevOps, Docker, Machine Learning",Available,Project_114
+E04123,Andrew Holmes,IT,Vice President,"SQL, FastAPI, Machine Learning, Data Analysis, Docker",Unavailable,Project_859
+E03471,Julia Sandoval,Human Resources,Manager,"React, DevOps, Docker, Data Analysis, Python",In Project (3 months left),Project_214
+E00717,Kennedy Vargas,Human Resources,Business Partner,"AWS, React",Available,Project_718
+E01966,Thomas Williams,Engineering,Field Engineer,"NLP, Machine Learning",Unavailable,Project_278
+E03683,Raelynn Hong,Marketing,Director,"SQL, NLP, Machine Learning",Unavailable,Project_705
+E03694,Eli Reed,IT,Systems Analyst,"FastAPI, Python, React, AWS, SQL",In Project (1 month left),Project_856
+E04766,Lyla Yoon,Accounting,Vice President,"Data Analysis, DevOps",In Project (1 month left),Project_254
+E01465,Hannah White,Accounting,Sr. Manger,"SQL, DevOps, Docker",Unavailable,Project_774
+E00206,Theodore Xi,Finance,Manager,"SQL, Python, FastAPI",In Project (1 month left),Project_557
+E04088,Ezra Liang,Finance,Vice President,"AWS, NLP, Data Analysis",Unavailable,Project_478
+E02066,Grayson Yee,Human Resources,Manager,"SQL, React, Docker, Python",Unavailable,Project_927
+E03227,Eli Richardson,IT,IT Coordinator,"NLP, DevOps",In Project (1 month left),Project_279
+E03364,Audrey Lee,Engineering,Development Engineer,"SQL, Machine Learning, Docker",In Project (1 month left),Project_367
+E00607,Jameson Allen,Marketing,Director,"DevOps, Python",In Project (1 month left),Project_901
+E02258,Eliza Chen,IT,Enterprise Architect,"Docker, Data Analysis, FastAPI",Available,Project_817
+E03681,Lyla Chen,Human Resources,Sr. Business Partner,"Python, Data Analysis, FastAPI, SQL, AWS",In Project (3 months left),Project_341
+E02298,Emily Doan,Engineering,Engineering Manager,"AWS, React, FastAPI",Unavailable,Project_596
+E02984,Jack Mai,Marketing,Sr. Analyst,"AWS, Python, NLP, Machine Learning, Docker",In Project (3 months left),Project_285
+E02440,Grayson Turner,IT,Solutions Architect,"Data Analysis, FastAPI, DevOps, Python, Docker",Available,Project_918
+E04699,Ivy Tang,Engineering,Development Engineer,"Data Analysis, AWS, Docker, SQL",Available,Project_640
+E03579,Robert Zhang,Marketing,Vice President,"FastAPI, Python, Data Analysis",Unavailable,Project_982
+E01649,Eva Alvarado,IT,Computer Systems Manager,"DevOps, FastAPI, Docker, AWS",Unavailable,Project_133
+E04969,Abigail Vang,Engineering,Operations Engineer,"Data Analysis, React, AWS, Python",In Project (3 months left),Project_451
+E00170,Claire Adams,Sales,Director,"Docker, NLP, Python, Data Analysis",In Project (3 months left),Project_186
+E00955,Theodore Marquez,Engineering,Development Engineer,"Python, DevOps, Machine Learning, Data Analysis",In Project (1 month left),Project_248
+E00810,Hunter Nunez,Human Resources,Vice President,"AWS, SQL, NLP",In Project (3 months left),Project_709
+E02798,Charles Henderson,IT,Systems Analyst,"React, FastAPI, Python",In Project (3 months left),Project_941
+E04542,Camila Cortez,Marketing,Manager,"Docker, Data Analysis, Machine Learning",Available,Project_257
+E02818,Aaron Garza,Sales,Director,"AWS, NLP, Machine Learning",In Project (3 months left),Project_957
+E02907,Jose Singh,Finance,Sr. Manger,"Docker, Python, Machine Learning, React",In Project (1 month left),Project_607
+E00023,Gabriel Joseph,Engineering,Director,"Docker, NLP, DevOps",In Project (3 months left),Project_870
+E02391,Natalia Santos,Human Resources,Vice President,"AWS, DevOps, Python, FastAPI",Unavailable,Project_522
+E01429,Dylan Wilson,IT,Network Administrator,"NLP, Docker",In Project (1 month left),Project_888
+E00494,Robert Alvarez,IT,Service Desk Analyst,"FastAPI, DevOps",Unavailable,Project_492
+E00634,Samantha Chavez,Sales,Sr. Analyst,"Machine Learning, NLP",Available,Project_343
+E01249,Samuel Bailey,Accounting,Vice President,"Machine Learning, AWS, Docker",In Project (1 month left),Project_776
+E04683,Ezekiel Delgado,Engineering,Director,"Python, AWS",In Project (1 month left),Project_550
+E04732,Benjamin Ramirez,IT,Network Engineer,"SQL, FastAPI, Machine Learning",In Project (3 months left),Project_843
+E03834,Anthony Carter,Engineering,Director,"Machine Learning, Data Analysis",In Project (1 month left),Project_752
+E02923,Ethan Tang,Accounting,Sr. Analyst,"Machine Learning, React",Available,Project_271
+E02642,Sebastian Rogers,Human Resources,HRIS Analyst,"AWS, Docker, Data Analysis, DevOps",Available,Project_315
+E00981,Miles Thao,IT,System Administrator ,"Machine Learning, AWS, Docker, SQL, DevOps",Available,Project_691
+E04157,William Cao,Marketing,Sr. Analyst,"Data Analysis, React, FastAPI",In Project (1 month left),Project_851
+E03528,Leo Hsu,Human Resources,Sr. Manger,"AWS, Python, Data Analysis",In Project (1 month left),Project_962
+E04547,Avery Grant,IT,Enterprise Architect,"AWS, Machine Learning",In Project (3 months left),Project_453
+E04415,Penelope Fong,Accounting,Director,"Docker, SQL, DevOps",Available,Project_155
+E04484,Vivian Thao,Engineering,Quality Engineer,"Machine Learning, SQL, NLP",In Project (3 months left),Project_757
+E02800,Eva Estrada,Sales,Sr. Manger,"Machine Learning, AWS, SQL, Data Analysis",Available,Project_370
+E04926,Emma Luna,Engineering,Field Engineer,"DevOps, Python, React, SQL",In Project (3 months left),Project_873
+E01268,Charlotte Wu,Human Resources,Sr. Business Partner,"SQL, Machine Learning, React",Unavailable,Project_939
+E04853,Vivian Chu,Sales,Sr. Account Representative,"Python, Docker",Unavailable,Project_218
+E01209,Jayden Williams,Human Resources,Manager,"DevOps, Data Analysis, AWS, NLP, FastAPI",Available,Project_153
+E02024,Amelia Bell,Sales,Sr. Analyst,"Machine Learning, FastAPI, Data Analysis, Python, NLP",In Project (3 months left),Project_271
+E02427,Addison Mehta,Sales,Manager,"AWS, DevOps, SQL",In Project (1 month left),Project_575
+E00276,Alexander Jackson,Human Resources,Manager,"React, Python",In Project (1 month left),Project_508
+E00951,Everly Lin,Human Resources,Business Partner,"React, SQL, FastAPI, AWS",In Project (1 month left),Project_587
+E03248,Lyla Stewart,IT,Sr. Manger,"Data Analysis, AWS, SQL",In Project (3 months left),Project_408
+E04444,Brooklyn Ruiz,IT,IT Coordinator,"Machine Learning, DevOps",Unavailable,Project_587
+E02307,Skylar Evans,Accounting,Director,"Data Analysis, AWS",In Project (1 month left),Project_864
+E02375,Lincoln Huynh,Finance,Sr. Manger,"AWS, Python, SQL, Docker, DevOps",Available,Project_870
+E02276,Hazel Griffin,Engineering,Field Engineer,"Data Analysis, FastAPI, React",Unavailable,Project_645
+E02649,Charles Gonzalez,Engineering,Quality Engineer,"React, NLP, SQL, Python",Available,Project_339
+E00503,Leah Patterson,Human Resources,Manager,"Docker, FastAPI, DevOps, SQL, Python",In Project (3 months left),Project_488
+E01706,Avery Sun,Engineering,Operations Engineer,"Python, Data Analysis, SQL, AWS",In Project (1 month left),Project_799
+E00676,Isaac Yoon,Human Resources,Manager,"NLP, SQL, Python, FastAPI, Data Analysis",Available,Project_822
+E02005,Isabella Bui,IT,Enterprise Architect,"SQL, DevOps, Docker, AWS",In Project (3 months left),Project_499
+E01895,Gabriel Zhou,IT,IT Coordinator,"DevOps, Docker, React, Python, Machine Learning",In Project (1 month left),Project_585
+E01396,Jack Vu,Accounting,Analyst II,"AWS, Machine Learning, Data Analysis, Docker, SQL",In Project (3 months left),Project_368
+E00749,Valentina Moua,Sales,Account Representative,"Python, React, DevOps, NLP, AWS",Available,Project_248
+E01941,Quinn Trinh,Sales,Analyst II,"React, Python, AWS",Unavailable,Project_643
+E01413,Caroline Nelson,Sales,Sr. Account Representative,"SQL, Machine Learning",Available,Project_991
+E03928,Miles Dang,IT,IT Coordinator,"Docker, NLP, Python, Data Analysis, FastAPI",Available,Project_545
+E04109,Leah Bryant,IT,IT Coordinator,"FastAPI, DevOps, NLP, Docker, AWS",Unavailable,Project_112
+E03994,Henry Jung,Engineering,Automation Engineer,"Data Analysis, Python",In Project (3 months left),Project_395
+E00639,Benjamin Mai,IT,System Administrator ,"SQL, DevOps, AWS",In Project (3 months left),Project_916
+E00608,Anna Han,Engineering,Development Engineer,"NLP, Docker, AWS",Available,Project_559
+E04189,Ariana Kim,IT,Network Architect,"Data Analysis, SQL",Available,Project_491
+E02732,Alice Tran,Marketing,Analyst,"NLP, AWS, React, FastAPI, Machine Learning",In Project (3 months left),Project_794
+E00324,Hailey Song,Finance,Manager,"SQL, Data Analysis",Unavailable,Project_423
+E00518,Lydia Morales,Finance,Manager,"FastAPI, Machine Learning, React, DevOps, NLP",In Project (1 month left),Project_642
+E01286,Liam Sanders,Human Resources,Sr. Business Partner,"Docker, FastAPI",Unavailable,Project_799
+E04564,Luke Sanchez,Human Resources,Sr. Manger,"SQL, Data Analysis, AWS, Docker, React",Available,Project_142
+E02033,Grace Sun,Finance,Director,"SQL, Docker",In Project (3 months left),Project_199
+E00412,Ezra Banks,Sales,Analyst II,"FastAPI, Machine Learning, Data Analysis, AWS",Unavailable,Project_644
+E01844,Jayden Kang,Finance,Analyst,"DevOps, Docker, Python, SQL, AWS",Available,Project_752
+E00667,Skylar Shah,Engineering,Field Engineer,"AWS, Data Analysis, Python, NLP, Docker",In Project (1 month left),Project_462
+E02639,Sebastian Le,Finance,Analyst,"Python, DevOps, React",In Project (1 month left),Project_964
+E00287,Luca Nelson,Finance,Manager,"Python, Machine Learning, React, AWS",Unavailable,Project_542
+E02235,Riley Ramirez,Human Resources,Sr. Business Partner,"DevOps, SQL, NLP, FastAPI",Available,Project_725
+E02720,Jaxon Fong,Sales,Sr. Analyst,"DevOps, Machine Learning, React, FastAPI",Available,Project_767
+E03583,Kayden Jordan,IT,Cloud Infrastructure Architect,"Docker, SQL, NLP, DevOps, FastAPI",In Project (1 month left),Project_978
+E01188,Alexander James,Human Resources,Sr. Manger,"DevOps, FastAPI, Machine Learning, Data Analysis, Python",In Project (3 months left),Project_379
+E02428,Connor Luu,IT,Computer Systems Manager,"SQL, React, Data Analysis",In Project (3 months left),Project_443
+E03289,Christopher Lam,Accounting,Vice President,"FastAPI, Python, AWS",Unavailable,Project_376
+E01947,Sophie Owens,Finance,Analyst II,"NLP, Python, Docker",Unavailable,Project_373
+E02024,Addison Perez,Engineering,Operations Engineer,"DevOps, Python",In Project (1 month left),Project_921
+E04249,Hadley Dang,Accounting,Vice President,"NLP, React, Machine Learning, Data Analysis",Available,Project_200
+E01090,Ethan Mehta,Sales,Director,"FastAPI, Data Analysis, SQL, Machine Learning, Python",In Project (3 months left),Project_361
+E03830,Madison Her,IT,Technical Architect,"Machine Learning, DevOps, FastAPI",In Project (3 months left),Project_770
+E04363,Savannah Singh,Marketing,Director,"DevOps, FastAPI, Machine Learning",In Project (3 months left),Project_698
+E04920,Nevaeh Hsu,Human Resources,Sr. Manger,"AWS, React, SQL, Docker",In Project (3 months left),Project_500
+E03866,Jordan Zhu,Marketing,Sr. Manger,"Data Analysis, Python",In Project (1 month left),Project_572
+E03521,Jackson Navarro,Sales,Director,"Docker, NLP, FastAPI",In Project (3 months left),Project_891
+E04095,Sadie Patterson,Accounting,Sr. Analyst,"NLP, React, Data Analysis",Available,Project_791
+E04079,Christopher Butler,IT,Network Architect,"Python, DevOps",In Project (3 months left),Project_867
+E01508,Penelope Rodriguez,Engineering,Engineering Manager,"AWS, Python, NLP",Unavailable,Project_347
+E02259,Emily Lau,Finance,Sr. Analyst,"Docker, React, FastAPI, NLP",Available,Project_851
+E04972,Sophie Oh,IT,Network Engineer,"Machine Learning, DevOps, React, SQL, NLP",In Project (3 months left),Project_788
+E01834,Chloe Allen,IT,Solutions Architect,"FastAPI, Data Analysis, SQL, Python",In Project (1 month left),Project_702
+E03124,Caleb Nelson,Marketing,Director,"FastAPI, React, Docker, Machine Learning",In Project (1 month left),Project_888
+E01898,Oliver Moua,IT,IT Systems Architect,"DevOps, SQL",In Project (3 months left),Project_299
+E00342,Wesley Doan,Finance,Manager,"React, Machine Learning, Docker, AWS",Unavailable,Project_632
+E03910,Nova Hsu,Human Resources,Manager,"NLP, AWS, Docker, Python",In Project (1 month left),Project_445
+E00862,Levi Moreno,IT,Systems Analyst,"Machine Learning, AWS, Python, Docker, NLP",Available,Project_793
+E02576,Gianna Ha,IT,Manager,"React, Data Analysis, FastAPI, NLP",Unavailable,Project_806
+E00035,Lillian Gonzales,IT,Cloud Infrastructure Architect,"Docker, NLP",In Project (1 month left),Project_284
+E01832,Ezra Singh,Finance,Analyst,"NLP, FastAPI, DevOps, Machine Learning",Unavailable,Project_420
+E01755,Audrey Patel,Finance,Sr. Manger,"FastAPI, React, AWS, Data Analysis",In Project (1 month left),Project_660
+E00465,Brooklyn Cho,IT,Technical Architect,"React, SQL, DevOps",In Project (1 month left),Project_110
+E02391,Piper Ramos,Sales,Sr. Manger,"React, FastAPI, AWS",Unavailable,Project_788
+E04697,Eleanor Williams,IT,Enterprise Architect,"SQL, NLP, Machine Learning, Docker",In Project (3 months left),Project_108
+E00371,Melody Grant,Engineering,Quality Engineer,"Data Analysis, Machine Learning, FastAPI, AWS",In Project (3 months left),Project_951
+E02992,Paisley Sanders,Marketing,Sr. Manger,"DevOps, SQL, Docker, Python",Unavailable,Project_169
+E04369,Santiago f Gray,Engineering,Quality Engineer,"DevOps, NLP",In Project (1 month left),Project_112
+E00592,Josephine Richardson,IT,System Administrator ,"Data Analysis, FastAPI",In Project (1 month left),Project_521
+E03532,Jaxson Santiago,Engineering,Engineering Manager,"Data Analysis, Python, AWS, SQL",In Project (1 month left),Project_200
+E00863,Lincoln Ramos,Engineering,Operations Engineer,"Machine Learning, Data Analysis, DevOps",In Project (1 month left),Project_637
+E03310,Dylan Campbell,Engineering,Director,"Machine Learning, AWS, SQL",In Project (1 month left),Project_206
+E01883,Olivia Gray,Marketing,Manager,"Machine Learning, AWS, Docker, DevOps, Python",In Project (3 months left),Project_801
+E01242,Emery Doan,Engineering,Controls Engineer,"DevOps, React",In Project (1 month left),Project_556
+E02535,Caroline Perez,Engineering,Controls Engineer,"AWS, Docker, DevOps",Unavailable,Project_459
+E00369,Genesis Woods,Human Resources,Manager,"AWS, Data Analysis",In Project (1 month left),Project_324
+E03332,Ruby Sun,IT,Cloud Infrastructure Architect,"Data Analysis, Docker, DevOps, NLP, Python",In Project (1 month left),Project_842
+E03278,Nevaeh James,IT,Solutions Architect,"FastAPI, NLP",In Project (3 months left),Project_390
+E02492,Parker Sandoval,Human Resources,Manager,"Python, Machine Learning, NLP, Docker",Available,Project_357
+E03055,Austin Rojas,Finance,Vice President,"NLP, Docker",Available,Project_297
+E01943,Vivian Espinoza,Sales,Sr. Manger,"React, AWS, SQL, NLP",In Project (1 month left),Project_134
+E01388,Cooper Gupta,Human Resources,Business Partner,"AWS, SQL, Python, Docker",In Project (3 months left),Project_124
+E00717,Axel Santos,Accounting,Sr. Analyst,"DevOps, FastAPI, Machine Learning, NLP",In Project (1 month left),Project_734
+E04637,Samuel Song,Sales,Director,"Machine Learning, DevOps, Docker",Available,Project_194
+E03240,Aiden Silva,IT,Vice President,"AWS, Data Analysis, Python",In Project (3 months left),Project_158
+E00340,Eliana Allen,Human Resources,Business Partner,"NLP, AWS, Docker",Unavailable,Project_708
+E04751,Grayson James,Engineering,Operations Engineer,"Docker, FastAPI",Unavailable,Project_772
+E04636,Hailey Yee,Sales,Account Representative,"SQL, Machine Learning, Python",In Project (3 months left),Project_955
+E00568,Ian Vargas,Sales,Analyst,"React, FastAPI, Python, Docker, DevOps",Unavailable,Project_322
+E02938,John Trinh,Marketing,Director,"Python, Docker",In Project (3 months left),Project_713
+E00555,Sofia Trinh,IT,Network Architect,"Data Analysis, DevOps",In Project (1 month left),Project_753
+E01111,Santiago f Moua,Human Resources,Sr. Manger,"SQL, FastAPI, React, NLP, Machine Learning",In Project (1 month left),Project_224
+E03149,Layla Collins,IT,IT Systems Architect,"NLP, Python, React",Available,Project_825
+E00952,Jaxon Powell,Engineering,Field Engineer,"SQL, FastAPI, React, DevOps, Data Analysis",In Project (1 month left),Project_222
+E04380,Naomi Washington,IT,Manager,"Data Analysis, SQL, FastAPI",In Project (1 month left),Project_188
+E04095,Ryan Holmes,Marketing,Sr. Manger,"SQL, Docker, DevOps, FastAPI",Available,Project_976
+E04994,Bella Holmes,Accounting,Director,"React, FastAPI, NLP",In Project (3 months left),Project_719
+E00447,Hailey Sanchez,Marketing,Vice President,"Data Analysis, React, AWS, Python",In Project (1 month left),Project_233
+E00089,Sofia Yoon,Human Resources,Sr. Manger,"NLP, DevOps, Machine Learning, SQL, Python",In Project (1 month left),Project_484
+E02035,Eli Rahman,IT,Service Desk Analyst,"SQL, Docker",In Project (1 month left),Project_772
+E03595,Christopher Howard,IT,Enterprise Architect,"AWS, SQL, FastAPI, Machine Learning, Data Analysis",Available,Project_882
+E03611,Alice Mehta,Sales,Analyst II,"React, NLP",In Project (3 months left),Project_763
+E04464,Cooper Yoon,Engineering,Engineering Manager,"React, Docker, DevOps, Python, Data Analysis",Available,Project_679
+E02135,John Delgado,IT,Cloud Infrastructure Architect,"Python, React, Machine Learning",Unavailable,Project_922
+E01684,Jaxson Liang,Engineering,Field Engineer,"Data Analysis, SQL, FastAPI, Docker",In Project (1 month left),Project_289
+E02968,Caroline Santos,Finance,Analyst II,"Python, AWS",Unavailable,Project_213
+E03362,Lily Henderson,Human Resources,HRIS Analyst,"Machine Learning, Docker, DevOps",In Project (3 months left),Project_812
+E01108,Hannah Martinez,Marketing,Manager,"SQL, Machine Learning, FastAPI, Docker",In Project (1 month left),Project_288
+E02217,William Phillips,IT,Network Architect,"Data Analysis, Docker",Unavailable,Project_359
+E03519,Eliza Zheng,IT,Computer Systems Manager,"React, Data Analysis, DevOps, FastAPI, NLP",Unavailable,Project_401
+E01967,John Dang,Sales,Director,"SQL, AWS, Python",Unavailable,Project_578
+E01125,Joshua Yang,IT,Network Engineer,"SQL, Data Analysis, DevOps",In Project (1 month left),Project_776
+E03795,Hazel Young,Sales,Sr. Manger,"AWS, Data Analysis, Machine Learning, React, Python",In Project (1 month left),Project_177
+E00508,Thomas Jung,Accounting,Sr. Analyst,"DevOps, Docker, SQL",In Project (1 month left),Project_754
+E02047,Xavier Perez,Sales,Sr. Analyst,"DevOps, Python, SQL, AWS, Machine Learning",In Project (1 month left),Project_564
+E01582,Elijah Coleman,Sales,Sr. Manger,"Python, FastAPI, NLP, Machine Learning",Available,Project_383
+E02563,Clara Sanchez,Engineering,Controls Engineer,"FastAPI, Docker, SQL, NLP",Unavailable,Project_887
+E04872,Isaac Stewart,Marketing,Director,"DevOps, Machine Learning, Data Analysis",Available,Project_537
+E03159,Claire Romero,Marketing,Vice President,"FastAPI, Python, Docker",In Project (3 months left),Project_808
+E01337,Andrew Coleman,Finance,Director,"FastAPI, DevOps, Docker",Unavailable,Project_783
+E00102,Riley Rojas,IT,Network Architect,"SQL, DevOps, Machine Learning",In Project (1 month left),Project_888
+E03637,Landon Thao,Human Resources,HRIS Analyst,"Machine Learning, React, Python",In Project (1 month left),Project_888
+E03455,Hadley Ford,IT,Systems Analyst,"FastAPI, Data Analysis, Docker",In Project (1 month left),Project_431
+E03354,Austin Brown,Marketing,Director,"SQL, DevOps, FastAPI",Available,Project_363
+E01225,Christian Fong,Sales,Manager,"SQL, DevOps, FastAPI, AWS, Python",In Project (1 month left),Project_265
+E01264,Hazel Alvarez,Human Resources,Business Partner,"Python, SQL, Data Analysis, NLP, Docker",Unavailable,Project_899
+E02274,Isabella Bailey,IT,Network Administrator,"SQL, React",Unavailable,Project_175
+E02848,Lincoln Huynh,IT,System Administrator ,"DevOps, Machine Learning, FastAPI",In Project (3 months left),Project_383
+E00480,Hadley Yee,Human Resources,Business Partner,"NLP, DevOps",Unavailable,Project_895
+E00203,Julia Doan,Human Resources,Business Partner,"FastAPI, DevOps, Machine Learning, Docker",In Project (1 month left),Project_163
+E00647,Dylan Ali,Human Resources,Sr. Manger,"SQL, Docker, NLP, Python, AWS",Unavailable,Project_491
+E03296,Eloise Trinh,IT,Solutions Architect,"React, FastAPI, Machine Learning, DevOps",Unavailable,Project_497
+E02453,Dylan Kumar,Marketing,Sr. Analyst,"Python, AWS",Available,Project_440
+E00647,Emily Gupta,Human Resources,HRIS Analyst,"AWS, Data Analysis, SQL, Docker, React",Unavailable,Project_161
+E02522,Silas Rivera,Sales,Vice President,"NLP, SQL, Data Analysis",In Project (3 months left),Project_364
+E00459,Jackson Jordan,Human Resources,Business Partner,"DevOps, NLP, Machine Learning",Unavailable,Project_932
+E03007,Isaac Joseph,Sales,Analyst,"Data Analysis, Python",Available,Project_371
+E04035,Hailey Lai,Finance,Sr. Manger,"DevOps, Docker",Available,Project_282
+E00952,Leilani Thao,Human Resources,Director,"DevOps, Python, FastAPI",Unavailable,Project_551
+E03863,Madeline Watson,Sales,Account Representative,"Docker, DevOps, AWS, Machine Learning, React",Unavailable,Project_171
+E02710,Silas Huang,Engineering,Engineering Manager,"AWS, SQL, Data Analysis",Available,Project_603
+E01895,Peyton Walker,Marketing,Analyst,"FastAPI, Data Analysis, Docker, React",In Project (1 month left),Project_305
+E01339,Jeremiah Hernandez,IT,Network Engineer,"React, Data Analysis, Machine Learning",Unavailable,Project_724
+E02938,Jace Washington,Accounting,Manager,"DevOps, AWS, FastAPI, NLP",Available,Project_502
+E03379,Landon Kim,Human Resources,Manager,"FastAPI, Machine Learning, NLP, SQL",Unavailable,Project_282
+E02153,Peyton Vasquez,Accounting,Analyst,"Docker, React, Machine Learning",Available,Project_760
+E00994,Charlotte Baker,Sales,Analyst II,"AWS, FastAPI, Machine Learning",In Project (1 month left),Project_603
+E00943,Elena Mendoza,Sales,Director,"Machine Learning, FastAPI",In Project (3 months left),Project_211
+E00869,Nova Lin,IT,Cloud Infrastructure Architect,"Docker, Data Analysis, React, FastAPI, NLP",Unavailable,Project_247
+E03457,Ivy Desai,Engineering,Controls Engineer,"FastAPI, SQL",Unavailable,Project_653
+E02193,Josephine Acosta,Human Resources,Director,"Data Analysis, AWS",In Project (3 months left),Project_887
+E00577,Nora Nunez,Finance,Analyst II,"Python, NLP",In Project (3 months left),Project_541
+E00538,Caleb Xiong,Sales,Sr. Account Representative,"AWS, React, FastAPI, SQL",Unavailable,Project_323
+E01415,Henry Green,Sales,Sr. Account Representative,"React, NLP",In Project (1 month left),Project_728
+E00717,Madelyn Chan,Sales,Manager,"Machine Learning, DevOps",Unavailable,Project_758
+E00225,Angel Delgado,Finance,Director,"Docker, FastAPI",In Project (3 months left),Project_208
+E02889,Mia Herrera,Marketing,Director,"FastAPI, Data Analysis, NLP",Available,Project_552
+E04978,Peyton Harris,IT,Enterprise Architect,"Python, Data Analysis, FastAPI, NLP",In Project (1 month left),Project_832
+E04163,David Herrera,Engineering,Engineering Manager,"FastAPI, Python, Docker, Machine Learning",Unavailable,Project_365
+E01652,Avery Dominguez,Sales,Sr. Manger,"NLP, DevOps, Docker, Machine Learning",Unavailable,Project_205
+E00880,Grace Carter,Human Resources,Sr. Manger,"Docker, FastAPI, NLP, Data Analysis",Available,Project_135
+E04335,Parker Allen,Sales,Sr. Analyst,"React, DevOps, AWS",Available,Project_174
+E01300,Sadie Lee,Marketing,Sr. Manger,"AWS, Docker",In Project (1 month left),Project_172
+E03102,Cooper Valdez,Sales,Manager,"Data Analysis, Python",In Project (1 month left),Project_685
+E04089,Sebastian Fong,IT,Sr. Manger,"React, FastAPI, Docker, SQL, Data Analysis",Unavailable,Project_845
+E02059,Roman Munoz,Sales,Sr. Manger,"Python, Machine Learning, DevOps, FastAPI",Unavailable,Project_356
+E03894,Charlotte Chang,Sales,Manager,"Python, AWS, Machine Learning",In Project (3 months left),Project_895
+E03106,Xavier Davis,Finance,Vice President,"Docker, React",Unavailable,Project_556
+E01350,Natalie Carter,Finance,Director,"Docker, FastAPI, Machine Learning, Python, DevOps",Available,Project_119
+E02900,Elena Richardson,Accounting,Manager,"FastAPI, NLP, AWS, React",In Project (1 month left),Project_609
+E02202,Emilia Bailey,Accounting,Vice President,"FastAPI, AWS",Unavailable,Project_252
+E02696,Ryan Lu,Engineering,Development Engineer,"FastAPI, Docker, Data Analysis, Python, AWS",In Project (1 month left),Project_768
+E01722,Asher Huynh,IT,Manager,"NLP, Machine Learning, FastAPI",Unavailable,Project_755
+E04562,Kinsley Martinez,Human Resources,Director,"React, NLP, DevOps, Docker",Available,Project_100
+E00640,Paisley Bryant,IT,Cloud Infrastructure Architect,"SQL, Machine Learning",In Project (3 months left),Project_138
+E02554,Joshua Ramirez,Human Resources,Vice President,"NLP, Docker, Python, Machine Learning, AWS",In Project (3 months left),Project_780
+E03412,Joshua Martin,Human Resources,Sr. Manger,"SQL, Data Analysis, React, DevOps, Machine Learning",In Project (1 month left),Project_499
+E00646,Charles Moore,Accounting,Analyst,"Python, FastAPI, Machine Learning, React",Available,Project_372
+E04670,Angel Do,IT,IT Systems Architect,"DevOps, Python, React, Machine Learning, SQL",Available,Project_255
+E03580,Maverick Medina,Sales,Analyst II,"FastAPI, SQL, Docker, DevOps",Available,Project_816
+E00446,Isaac Han,Human Resources,Vice President,"SQL, NLP",Unavailable,Project_437
+E02363,Eliza Liang,Human Resources,Sr. Manger,"Data Analysis, SQL, NLP",In Project (3 months left),Project_500
+E03718,Zoe Zhou,Finance,Manager,"SQL, AWS, Python, NLP, Machine Learning",Available,Project_688
+E01749,Nathan Lee,Accounting,Analyst,"Python, SQL, FastAPI, Docker",Unavailable,Project_103
+E02888,Elijah Ramos,IT,Sr. Manger,"React, FastAPI, SQL",In Project (1 month left),Project_627
+E01338,Jaxson Coleman,Finance,Manager,"React, Data Analysis, FastAPI",Unavailable,Project_824
+E03000,Hailey Hong,Sales,Account Representative,"Data Analysis, Docker, Machine Learning, Python, NLP",Unavailable,Project_889
+E01611,Gabriella Zhu,IT,Computer Systems Manager,"FastAPI, Python",Available,Project_602
+E02684,Aaron Maldonado,Finance,Analyst II,"Docker, Python",In Project (1 month left),Project_589
+E02561,Samantha Vargas,Human Resources,Director,"Machine Learning, FastAPI",In Project (3 months left),Project_546
+E03168,Nora Le,IT,Sr. Manger,"React, Docker",In Project (1 month left),Project_513
+E00758,Alice Roberts,Human Resources,Director,"React, DevOps",In Project (1 month left),Project_964
+E03691,Colton Garcia,IT,Solutions Architect,"Data Analysis, Python, DevOps, SQL, React",In Project (1 month left),Project_845
+E01488,Stella Lai,Accounting,Sr. Analyst,"AWS, Data Analysis, React",In Project (1 month left),Project_899
+E04415,Leonardo Luong,Finance,Manager,"React, Machine Learning, Python",Available,Project_931
+E03278,Nicholas Wong,Sales,Director,"SQL, Python, FastAPI",Unavailable,Project_904
+E00282,Jeremiah Castillo,Accounting,Analyst II,"FastAPI, Docker, SQL, AWS, DevOps",In Project (3 months left),Project_171
+E03305,Cooper Jiang,Accounting,Analyst II,"NLP, Data Analysis, AWS, SQL",In Project (3 months left),Project_653
+E00559,Penelope Silva,IT,Network Architect,"NLP, React, Docker",Unavailable,Project_331
+E02558,Jose Richardson,Marketing,Director,"AWS, Python",In Project (3 months left),Project_103
+E00956,Eleanor Chau,Engineering,Development Engineer,"FastAPI, SQL, React, Machine Learning, Python",In Project (1 month left),Project_493
+E03858,John Cho,Human Resources,Director,"SQL, NLP, DevOps, AWS",Available,Project_805
+E02221,Julian Delgado,IT,Systems Analyst,"AWS, NLP, SQL, Docker",In Project (1 month left),Project_937
+E00126,Isabella Scott,IT,Network Administrator,"NLP, Machine Learning",In Project (1 month left),Project_898
+E02627,Parker Avila,Marketing,Analyst II,"DevOps, Machine Learning, React, FastAPI, Docker",Available,Project_593
+E03778,Luke Vu,Marketing,Sr. Manger,"Docker, Machine Learning, FastAPI",In Project (3 months left),Project_224
+E00481,Jameson Nelson,IT,Network Architect,"AWS, Python, Machine Learning, SQL, Data Analysis",Available,Project_680
+E02833,Adrian Fernandez,IT,Systems Analyst,"React, Machine Learning, AWS, FastAPI, Data Analysis",Unavailable,Project_648
+E03902,Madison Hunter,IT,Network Administrator,"DevOps, Docker, FastAPI, AWS",Unavailable,Project_467
+E02310,Jordan Phillips,Human Resources,Vice President,"DevOps, FastAPI, SQL, Docker",Unavailable,Project_441
+E02661,Maya Chan,Engineering,Controls Engineer,"React, AWS",Available,Project_798
+E00836,Wesley King,Accounting,Manager,"React, SQL, FastAPI",Unavailable,Project_410
+E00682,Sofia Fernandez,Accounting,Manager,"FastAPI, Python",In Project (1 month left),Project_510
+E00287,Maverick Figueroa,IT,IT Systems Architect,"Docker, NLP, Python, React, AWS",In Project (1 month left),Project_156
+E00785,Hannah Hoang,Accounting,Manager,"AWS, Machine Learning, Data Analysis, SQL, React",Unavailable,Project_747
+E04598,Violet Garcia,Marketing,Sr. Analyst,"AWS, DevOps, SQL, NLP",Unavailable,Project_762
+E03247,Aaliyah Mai,IT,Vice President,"FastAPI, Python, NLP, Data Analysis",Unavailable,Project_192
+E02703,Austin Vang,Marketing,Manager,"FastAPI, AWS, DevOps",Unavailable,Project_474
+E02191,Maria Sun,Sales,Director,"AWS, Docker, DevOps",Available,Project_647
+E00156,Madelyn Scott,IT,Sr. Manger,"Python, NLP, DevOps, SQL",Available,Project_973
+E03349,Dylan Chin,Finance,Director,"React, Machine Learning",In Project (1 month left),Project_448
+E04032,Emery Zhang,Engineering,Field Engineer,"Python, NLP, Machine Learning",In Project (3 months left),Project_182
+E00005,Riley Washington,Sales,Director,"DevOps, Docker, Python, FastAPI, Machine Learning",In Project (1 month left),Project_961
+E04354,Raelynn Rios,Sales,Vice President,"SQL, FastAPI, React, Data Analysis",Available,Project_570
+E01578,Anthony Hong,IT,Sr. Manger,"Docker, FastAPI, AWS, NLP",In Project (1 month left),Project_878
+E03430,Leo Herrera,Human Resources,Sr. Business Partner,"Machine Learning, SQL, React, NLP, FastAPI",In Project (1 month left),Project_884
+E03058,Robert Wright,IT,Technical Architect,"Machine Learning, Docker, DevOps, Data Analysis, NLP",Available,Project_396
+E04762,Audrey Richardson,IT,Director,"FastAPI, AWS",In Project (3 months left),Project_763
+E01148,Scarlett Kumar,IT,Systems Analyst,"AWS, NLP, SQL, React, Machine Learning",Available,Project_307
+E03094,Wesley Young,Marketing,Sr. Analyst,"NLP, AWS, FastAPI, SQL",In Project (1 month left),Project_280
+E01909,Lillian Khan,Finance,Analyst,"Docker, SQL, NLP, DevOps",Available,Project_667
+E04398,Oliver Yang,Marketing,Director,"SQL, DevOps, FastAPI, NLP",In Project (3 months left),Project_140
+E02521,Lily Nguyen,Finance,Sr. Analyst,"Docker, AWS, Data Analysis",In Project (3 months left),Project_493
+E03545,Sofia Cheng,Accounting,Vice President,"NLP, Python",Available,Project_776

@@ -1,0 +1,26 @@
+CourseID,CourseTitle,TargetSkill,DurationHours
+CRS001,Advanced React Mastery,React,39
+CRS002,Advanced SQL Mastery,SQL,18
+CRS003,Advanced Data Analysis Mastery,Data Analysis,14
+CRS004,Advanced NLP Mastery,NLP,24
+CRS005,Advanced React Mastery,React,22
+CRS006,Advanced Data Analysis Mastery,Data Analysis,12
+CRS007,Advanced NLP Mastery,NLP,24
+CRS008,Advanced NLP Mastery,NLP,21
+CRS009,Advanced Data Analysis Mastery,Data Analysis,16
+CRS010,Advanced NLP Mastery,NLP,20
+CRS011,Advanced Docker Mastery,Docker,13
+CRS012,Advanced AWS Mastery,AWS,33
+CRS013,Advanced AWS Mastery,AWS,39
+CRS014,Advanced AWS Mastery,AWS,34
+CRS015,Advanced DevOps Mastery,DevOps,33
+CRS016,Advanced Data Analysis Mastery,Data Analysis,31
+CRS017,Advanced Docker Mastery,Docker,20
+CRS018,Advanced Docker Mastery,Docker,36
+CRS019,Advanced NLP Mastery,NLP,11
+CRS020,Advanced Data Analysis Mastery,Data Analysis,15
+CRS021,Advanced DevOps Mastery,DevOps,37
+CRS022,Advanced NLP Mastery,NLP,21
+CRS023,Advanced Docker Mastery,Docker,15
+CRS024,Advanced Machine Learning Mastery,Machine Learning,14
+CRS025,Advanced Python Mastery,Python,37
