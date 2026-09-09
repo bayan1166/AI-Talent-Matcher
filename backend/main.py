@@ -105,3 +105,40 @@ def build_team(request: TeamRequest):
         }
     except Exception as e:
         return {"status": "error", "message": str(e)}
+
+class SkillGapRequest(BaseModel):
+    employee_id: str
+    target_role: str
+
+@app.post("/skill-gap")
+def analyze_skill_gap(request: SkillGapRequest):
+    try:
+        employee_skills = ["Python", "SQL", "Data Analysis"]
+        
+        role_requirements = {
+            "Senior Data Engineer": ["Python", "SQL", "AWS", "Docker", "Data Engineering"],
+            "NLP Engineer": ["Python", "Machine Learning", "NLP", "PyTorch"]
+        }
+        
+        required_skills = role_requirements.get(request.target_role, ["Python", "SQL", "Machine Learning"])
+        
+        missing_skills = [skill for skill in required_skills if skill not in employee_skills]
+        
+        training_recommendations = [f"Advanced {skill} Mastery (Course ID: CRS-{np.random.randint(100, 999)})" for skill in missing_skills]
+        
+        if not missing_skills:
+            gap_analysis = "Employee meets all core requirements for the target role."
+        else:
+            gap_analysis = f"Employee is missing {len(missing_skills)} critical skills for the {request.target_role} position."
+            
+        return {
+            "status": "success",
+            "employee_id": request.employee_id,
+            "target_role": request.target_role,
+            "current_skills": employee_skills,
+            "missing_skills": missing_skills,
+            "training_recommendations": training_recommendations,
+            "gap_analysis": gap_analysis
+        }
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
