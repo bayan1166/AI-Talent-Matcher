@@ -3,15 +3,14 @@ import requests
 
 # Page setup
 st.set_page_config(
-    page_title="TalentMatch AI | Talent Intelligence", 
+    page_title="TalentMatch AI | Enterprise Hub", 
     page_icon="⚡", 
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-BACKEND_URL = "https://ai-talent-matcher-0bvk.onrender.com/match"
+BASE_URL = "https://ai-talent-matcher-0bvk.onrender.com"
 
-# Theme styling & layout adjustments
 st.markdown("""
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -29,299 +28,192 @@ st.markdown("""
     --text-muted: #8E9BAE;
 }
 
-/* Hide Streamlit default badges, Deploy button, and footer */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {background-color: transparent !important;}
 .stDeployButton {display: none !important;}
-[data-testid="stAppDeployButton"] {display: none !important;}
 
 html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
-
 .stApp {
-    background: 
-        radial-gradient(circle at 50% 0%, var(--brand-red-glow) 0%, transparent 40%),
-        var(--bg-deep);
+    background: radial-gradient(circle at 50% 0%, var(--brand-red-glow) 0%, transparent 40%), var(--bg-deep);
     color: var(--text-primary);
 }
 
-/* Hero section */
-.hero { 
-    max-width: 720px; 
-    margin: 25px auto 10px auto; 
-    text-align: center; 
-}
-.hero-badge {
-    display: inline-block;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--brand-red);
-    background: var(--brand-red-soft);
-    padding: 6px 14px;
-    border-radius: 20px;
-    border: 1px solid rgba(227, 53, 43, 0.3);
-    margin-bottom: 16px;
-}
-.hero h1 {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: var(--text-primary);
-    margin: 0 0 12px 0;
-    letter-spacing: -0.02em;
-}
-.hero h1 span {
-    color: var(--brand-red);
-}
-.hero p {
-    color: var(--text-muted);
-    font-size: 1.05rem;
-    line-height: 1.6;
-    margin: 0 auto;
-}
-
-/* Search container */
-.search-wrapper {
-    max-width: 680px;
-    margin: 30px auto 0 auto;
+/* Custom UI Cards */
+.glass-card {
     background: var(--bg-panel);
     border: 1px solid var(--border-line);
     border-radius: 14px;
-    padding: 24px;
+    padding: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    margin-bottom: 20px;
 }
-.search-label {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--brand-red);
-    margin-bottom: 10px;
-    display: block;
+.hero h1 { font-family: 'Outfit', sans-serif; font-weight: 700; color: var(--text-primary); }
+.hero h1 span { color: var(--brand-red); }
+.tag {
+    display: inline-block; background: var(--brand-red-soft); border: 1px solid rgba(227,53,43,0.3);
+    color: #FF8F88; padding: 4px 10px; border-radius: 6px; font-size: 0.85rem; margin-right: 5px;
 }
+.metric-value { font-family: 'JetBrains Mono', monospace; font-size: 1.8rem; font-weight: 700; color: white; }
+.metric-label { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
 
-/* Input field adjustments */
-.stTextInput > div > div > input {
-    background: var(--bg-raised) !important;
-    border: 1px solid var(--border-line) !important;
-    border-radius: 8px !important;
-    color: var(--text-primary) !important;
-    font-size: 0.95rem !important;
-    padding: 14px 16px !important;
-}
-.stTextInput > div > div > input:focus {
-    border-color: var(--brand-red) !important;
-    box-shadow: 0 0 0 1px var(--brand-red) !important;
-}
-.stTextInput input::placeholder { 
-    color: var(--text-muted) !important; 
-    opacity: 0.65; 
-}
-
-/* Action button */
-.stButton > button {
-    width: 100%;
-    border-radius: 8px;
-    height: 3.2em;
-    margin-top: 12px;
-    background: var(--brand-red);
-    color: white;
-    font-family: 'Outfit', sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    letter-spacing: 0.02em;
-    border: none;
-    transition: all 0.2s ease;
-}
-.stButton > button:hover { 
-    background-color: #FA3E33; 
-    transform: translateY(-1px); 
-    box-shadow: 0 4px 14px var(--brand-red-glow); 
-    color: white;
-}
-
-/* Result brief card */
-.brief-card {
-    max-width: 680px;
-    margin: 28px auto 0 auto;
-    background: var(--bg-panel);
-    border: 1px solid var(--border-line);
-    border-radius: 14px;
-    padding: 0;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-    animation: fadeIn 0.3s ease-out;
-}
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to   { opacity: 1; transform: translateY(0); }
-}
-.brief-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 24px;
-    background: var(--brand-red-soft);
-    border-bottom: 1px solid rgba(227, 53, 43, 0.2);
-}
-.brief-title {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--brand-red);
-    font-weight: 600;
-}
-.brief-body { 
-    padding: 24px; 
-}
-.brief-grid {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding-bottom: 18px;
-    border-bottom: 1px solid var(--border-line);
-}
-.field-label {
-    font-size: 11px;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin-bottom: 6px;
-}
-.field-value {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 1.3rem;
-    color: var(--text-primary);
-    font-weight: 600;
-}
-.major-tag {
-    display: inline-block;
-    background: var(--brand-red-soft);
-    border: 1px solid rgba(227, 53, 43, 0.3);
-    color: #FF8F88;
-    padding: 5px 14px;
-    border-radius: 6px;
-    font-size: 0.9rem;
-}
-.assessment { 
-    margin-top: 20px; 
-}
-.assessment-text {
-    font-size: 0.98rem;
-    line-height: 1.65;
-    color: #D1D8E0;
-    border-left: 3px solid var(--brand-red);
-    padding: 4px 0 4px 16px;
-    background: linear-gradient(90deg, rgba(227,53,43,0.04), transparent);
-}
-
-/* Footer note */
-.footer-note {
-    text-align: center;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.12em;
-    color: var(--text-muted);
-    margin-top: 50px;
-    padding-bottom: 30px;
-}
-.footer-note span { color: var(--brand-red); }
+/* AI Chat adjustments */
+.stChatMessage { background-color: transparent !important; }
 </style>
 """, unsafe_allow_html=True)
 
-# Sidebar setup
+# --- SIDEBAR NAVIGATION ---
 with st.sidebar:
     st.markdown("""
-    <div style="font-family:'Outfit',sans-serif; font-size:1.6rem; font-weight:700; color:#FFF; margin-bottom:4px;">
+    <div style="font-family:'Outfit',sans-serif; font-size:1.8rem; font-weight:700; color:#FFF; margin-bottom:4px;">
         TalentMatch<span style="color:#E3352B;">.ai</span>
     </div>
-    <div style="font-family:'JetBrains Mono',monospace; font-size:10px; color:#E3352B; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:20px;">
-        Neural Talent Search
-    </div>
-    <div style="font-size:13px; color:#8E9BAE; line-height:1.6;">
-        Evaluates skill prerequisites against employee profile records using vector embeddings to match semantic intent beyond exact keywords.
-    </div>
-    <hr style="border-color:#272E38; margin:20px 0;">
-    
-    <div style="font-size:11px; color:#8E9BAE; text-transform:uppercase; letter-spacing:0.08em; margin-bottom:10px;">
-        System Architecture
-    </div>
-    <div style="font-family:'JetBrains Mono',monospace; font-size:12px; color:#D1D8E0; line-height:2.0;">
-        FastAPI <span style="color:#E3352B;">→</span> Service Layer<br>
-        ChromaDB <span style="color:#E3352B;">→</span> Vector Index<br>
-        PostgreSQL <span style="color:#E3352B;">→</span> Relational Store
+    <div style="font-family:'JetBrains Mono',monospace; font-size:10px; color:#E3352B; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:30px;">
+        Enterprise Hub v2.0
     </div>
     """, unsafe_allow_html=True)
+    
+    view = st.radio(
+        "Navigation", 
+        [" Talent Scout (Match)", " Team Builder", "Skill Gap Analysis", " AI Agent Chat"],
+        label_visibility="collapsed"
+    )
+    
+    st.markdown("<hr style='border-color:#272E38; margin:20px 0;'>", unsafe_allow_html=True)
+    st.markdown("<div style='font-size:11px; color:#8E9BAE; text-transform:uppercase;'>System Status: <span style='color:#00E676;'>● Online</span></div>", unsafe_allow_html=True)
 
-# Hero Header
-st.markdown("""
-<div class="hero">
-    <div class="hero-badge">Autonomous Talent Scout</div>
-    <h1>Skill-Driven <span>Talent Intelligence</span></h1>
-    <p>Specify the technical stack and requirements to find the best candidate profile ranked by semantic similarity.</p>
-</div>
-""", unsafe_allow_html=True)
+# --- VIEWS ROUTING ---
 
-# Main Query Section
-with st.container():
-    col1, col2, col3 = st.columns([1, 6, 1])
+# 1. TALENT SCOUT
+if view == " Talent Scout (Match)":
+    st.markdown("<div class='hero'><h1>Skill-Driven <span>Talent Intelligence</span></h1><p style='color:var(--text-muted);'>Search the vector index for optimal candidate alignment.</p></div>", unsafe_allow_html=True)
+    
+    with st.container():
+        col1, col2, col3 = st.columns([1, 6, 1])
+        with col2:
+            st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
+            skills_query = st.text_input("Required Technical Competencies", placeholder="e.g., Python, Docker, Machine Learning...")
+            if st.button("Find Matching Talent", use_container_width=True):
+                if skills_query:
+                    with st.spinner("Processing vector similarity scores..."):
+                        try:
+                            res = requests.get(f"{BASE_URL}/match", params={"skills": skills_query})
+                            if res.status_code == 200:
+                                data = res.json()
+                                st.success("Match Found!")
+                                st.markdown(f"""
+                                <div style="margin-top:15px; border-left: 3px solid var(--brand-red); padding-left: 15px;">
+                                    <h3 style="margin:0; font-family:'JetBrains Mono';">{data['top_candidate']}</h3>
+                                    <span class="tag">{data['major']}</span>
+                                    <p style="margin-top:10px; color:#D1D8E0;">{data['ai_reasoning']}</p>
+                                </div>
+                                """, unsafe_allow_html=True)
+                        except Exception:
+                            st.error("Connection failed.")
+            st.markdown("</div>", unsafe_allow_html=True)
+
+# 2. TEAM BUILDER
+elif view == "🤝 Team Builder":
+    st.markdown("<div class='hero'><h1>Autonomous <span>Team Assembly</span></h1><p style='color:var(--text-muted);'>Form highly synergistic project teams based on skill coverage.</p></div>", unsafe_allow_html=True)
+    
+    col1, col2 = st.columns([2, 1])
+    with col1:
+        brief = st.text_area("Project Brief & Required Capabilities", placeholder="Describe the project and the technical stack required...")
     with col2:
-        st.markdown('<span class="search-label">Required Technical Competencies</span>', unsafe_allow_html=True)
-        skills_query = st.text_input(
-            "Required Skills",
-            placeholder="e.g., Python, Docker, PostgreSQL, Machine Learning...",
-            label_visibility="collapsed"
-        )
-        search_btn = st.button("Find Matching Talent")
-
-# Query Execution & Results Display
-if search_btn:
-    if skills_query.strip():
-        with st.spinner("Processing vector similarity scores..."):
-            try:
-                response = requests.get(BACKEND_URL, params={"skills": skills_query.strip()}, timeout=10)
-
-                if response.status_code == 200:
-                    data = response.json()
-                    if data.get("status") == "success":
-                        st.markdown(f"""
-                        <div class="brief-card">
-                            <div class="brief-header">
-                                <span class="brief-title">Optimal Candidate Profile</span>
-                                <span style="color:var(--brand-red); font-size:14px;">●</span>
+        team_size = st.slider("Team Size", min_value=2, max_value=8, value=4)
+        
+    if st.button("Assemble Team", use_container_width=True, type="primary"):
+        if brief:
+            with st.spinner("AI is assembling the optimal team..."):
+                res = requests.post(f"{BASE_URL}/team-builder", json={"project_brief": brief, "team_size": team_size})
+                if res.status_code == 200:
+                    data = res.json()
+                    st.balloons()
+                    st.markdown(f"###  Team Skill Coverage: <span style='color:var(--brand-red);'>{data['combined_skill_coverage']}</span>", unsafe_allow_html=True)
+                    
+                    # Display Team Cards
+                    cols = st.columns(min(team_size, 4))
+                    for idx, member in enumerate(data['proposed_team']):
+                        with cols[idx % 4]:
+                            st.markdown(f"""
+                            <div class="glass-card" style="text-align:center;">
+                                <div class="metric-value" style="font-size:1.2rem;">{member['employee_id']}</div>
+                                <div style="color:var(--brand-red); margin-bottom:10px; font-weight:bold;">{member['match_score']} Match</div>
+                                <div class="tag" style="font-size:0.75rem;">{member['primary_skills']}</div>
                             </div>
-                            <div class="brief-body">
-                                <div class="brief-grid">
-                                    <div>
-                                        <div class="field-label">Candidate Identifier</div>
-                                        <div class="field-value">{data['top_candidate']}</div>
-                                    </div>
-                                    <div>
-                                        <div class="field-label">Field of Study</div>
-                                        <span class="major-tag">{data['major']}</span>
-                                    </div>
-                                </div>
-                                <div class="assessment">
-                                    <div class="field-label">Alignment Evaluation</div>
-                                    <div class="assessment-text">{data['ai_reasoning']}</div>
-                                </div>
-                            </div>
-                        </div>
-                        """, unsafe_allow_html=True)
-                    else:
-                        st.error(f"Engine Error: {data.get('message')}")
+                            """, unsafe_allow_html=True)
+                    
+                    st.info(f"**AI Recommendation:** {data['actionable_recommendation']}")
+
+# 3. SKILL GAP ANALYSIS
+elif view == " Skill Gap Analysis":
+    st.markdown("<div class='hero'><h1>Skill Gap <span>Analysis</span></h1><p style='color:var(--text-muted);'>Identify capability deficits and auto-recommend training.</p></div>", unsafe_allow_html=True)
+    
+    c1, c2 = st.columns(2)
+    with c1:
+        emp_id = st.text_input("Employee ID", value="EEID-105")
+    with c2:
+        target_role = st.selectbox("Target Role", ["Senior Data Engineer", "NLP Engineer", "Cloud Architect"])
+        
+    if st.button("Analyze Profile", use_container_width=True):
+        with st.spinner("Analyzing profile against role requirements..."):
+            res = requests.post(f"{BASE_URL}/skill-gap", json={"employee_id": emp_id, "target_role": target_role})
+            if res.status_code == 200:
+                data = res.json()
+                st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
+                st.subheader("Analysis Results")
+                st.write(f"**Current Skills:** {', '.join(data['current_skills'])}")
+                
+                if data['missing_skills']:
+                    st.warning(data['gap_analysis'])
+                    st.write("**Missing Capabilities:**")
+                    for skill in data['missing_skills']:
+                        st.markdown(f"<span class='tag' style='background:rgba(255,152,0,0.1); color:#FF9800; border-color:#FF9800;'>{skill}</span>", unsafe_allow_html=True)
+                    
+                    st.write("\n**Recommended Training (RAG output):**")
+                    for rec in data['training_recommendations']:
+                        st.success(rec)
                 else:
-                    st.error("Backend unreachable. Ensure FastAPI server is running on port 8000.")
-            except Exception as e:
-                st.error("Connection failed. Please check if the local server process is active.")
-    else:
-        st.warning("Please specify at least one skill requirement.")
+                    st.success(data['gap_analysis'])
+                st.markdown("</div>", unsafe_allow_html=True)
 
-# Footer
-st.markdown("""
-<div class="footer-note"><span>TALENTMATCH AI</span> &nbsp;·&nbsp; VECTOR RETRIEVAL ENGINE</div>
-""", unsafe_allow_html=True)
+# 4. AI AGENT CHAT
+elif view == " AI Agent Chat":
+    st.markdown("<div class='hero'><h1>Talent <span>AI Agent</span></h1><p style='color:var(--text-muted);'>Ask complex workforce questions in natural language.</p></div>", unsafe_allow_html=True)
+    
+    # Initialize chat history
+    if "messages" not in st.session_state:
+        st.session_state.messages = [{"role": "assistant", "content": "Hello! I am the TalentMatch AI. Ask me to build a team, find a candidate, or check skill gaps."}]
+
+    # Display chat messages
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+
+    # Chat input
+    if prompt := st.chat_input("E.g., Can you build a team for an NLP project?"):
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.markdown(prompt)
+
+        with st.chat_message("assistant"):
+            with st.spinner("Thinking & Routing..."):
+                try:
+                    payload = {"messages": [{"role": m["role"], "content": m["content"]} for m in st.session_state.messages]}
+                    res = requests.post(f"{BASE_URL}/ask", json=payload)
+                    
+                    if res.status_code == 200:
+                        data = res.json()
+                        st.markdown(data["answer"])
+                        
+                        with st.expander(" View AI Execution Trace"):
+                            for trace in data["tool_trace"]:
+                                st.code(trace, language="log")
+                            if data["cited_records"]:
+                                st.write("**Cited Records:**", ", ".join(data["cited_records"]))
+                                
+                        st.session_state.messages.append({"role": "assistant", "content": data["answer"]})
+                    else:
+                        st.error("Agent encountered an error.")
+                except Exception as e:
+                    st.error("Failed to connect to AI Agent.")
