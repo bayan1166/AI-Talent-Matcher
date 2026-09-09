@@ -29,10 +29,10 @@ if collection.count() == 0:
 model_path = os.path.join(os.path.dirname(__file__), "candidate_scorer_model.pkl")
 try:
     ml_model = joblib.load(model_path)
-    print("✅ ML Model loaded successfully!")
+    print(" ML Model loaded successfully!")
 except Exception as e:
     ml_model = None
-    print(f"⚠️ Warning: Could not load ML model. {e}")
+    print(f" Warning: Could not load ML model. {e}")
 
 @app.get("/")
 def read_root():
@@ -72,6 +72,36 @@ def match_candidates(skills: str = Query(..., description="Skills required for t
             "major": best_major,
             "ml_success_probability": ml_prob_str,
             "ai_reasoning": ai_reasoning
+        }
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
+
+from pydantic import BaseModel
+
+class TeamRequest(BaseModel):
+    project_brief: str
+    team_size: int = 4
+
+@app.post("/team-builder")
+def build_team(request: TeamRequest):
+    try:
+        
+        simulated_team = [
+            {"employee_id": "EEID-401", "primary_skills": "Python, Backend", "match_score": "94%"},
+            {"employee_id": "EEID-402", "primary_skills": "NLP, Machine Learning", "match_score": "92%"},
+            {"employee_id": "EEID-403", "primary_skills": "Cloud, DevOps", "match_score": "89%"},
+            {"employee_id": "EEID-404", "primary_skills": "Data Analysis, SQL", "match_score": "87%"}
+        ]
+        
+        selected_team = simulated_team[:request.team_size]
+        
+        return {
+            "status": "success",
+            "project_brief": request.project_brief,
+            "proposed_team": selected_team,
+            "combined_skill_coverage": "90.5%",
+            "identified_skill_gap": "Advanced Cloud Deployment",
+            "actionable_recommendation": "Team covers core backend and ML requirements. Recommended action: Trigger short AWS upskilling pathway for EEID-403."
         }
     except Exception as e:
         return {"status": "error", "message": str(e)}
