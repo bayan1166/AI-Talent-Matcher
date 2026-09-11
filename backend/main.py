@@ -143,13 +143,20 @@ def analyze_skill_gap(request: SkillGapRequest):
 class AskRequest(BaseModel):
     messages: List[Dict[str, str]]
 
+class AskRequest(BaseModel):
+    messages: List[Dict[str, str]]
+
 @app.post("/ask")
 def ask_ai_agent(request: AskRequest):
     try:
         user_message = request.messages[-1]["content"] if request.messages else ""
         user_msg_lower = user_message.lower()
         
-        if "weather" in user_msg_lower or "طقس" in user_msg_lower:
+        hr_keywords = ["team", "فريق", "gap", "training", "تدريب", "match", "candidate", "مهارات", "skills", "وظيفة", "hire", "employee"]
+        
+        is_hr_related = any(keyword in user_msg_lower for keyword in hr_keywords)
+        
+        if not is_hr_related:
             tool_used = "None"
             response_text = "I am an AI Talent & Workforce Matching Agent. I can only answer workforce-matching questions."
             cited_records = []
