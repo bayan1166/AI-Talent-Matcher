@@ -66,5 +66,10 @@ The system is evaluated using human-labeled ground truth for synthetic candidate
 ##  Project Assets
 * **Documentation:** [Read the technical report (PDF)](./assets/AI_Talent_Report.pdf)
 * **Presentation:** [View the slides (PDF)](./assets/TalentMatch_Presentation.pdf)
+<<<<<<< HEAD
 * ** Demo:** [Watch the system in action (in "demo" folder)]
 * Live Demo: [Click here to try TalentMatch AI ] : (https://ai-talent-matcher-kjmbib5g6r4ksrmpumdyyh.streamlit.app/)
+=======
+* **Demo:** [Watch the system in action (in "demo" folder)]
+* **Live Demo:** [Click here to try TalentMatch AI  ]   :  (https://ai-talent-matcher-kjmbib5g6r4ksrmpumdyyh.streamlit.app/)
+>>>>>>> 98d4de52121441b2fd4f0ab1cb972481ddf478f6
