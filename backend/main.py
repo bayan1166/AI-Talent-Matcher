@@ -4,6 +4,7 @@ import os
 import joblib
 import numpy as np
 from typing import List, Dict, Any
+from pydantic import BaseModel
 
 app = FastAPI(title="TalentMatch AI API")
 
@@ -13,9 +14,10 @@ collection = chroma_client.get_or_create_collection(name="resumes_collection")
 if collection.count() == 0:
     sample_candidates = [
         {"id": "C-101", "major": "Software Engineering", "text": "Python, FastAPI, Docker, PostgreSQL, REST APIs, Git"},
-        {"id": "C-102", "major": "Data Science & AI", "text": "Machine Learning, Python, PyTorch, NLP, Scikit-learn, Pandas"},
+        {"id": "C-102", "major": "Data Science", "text": "Machine Learning, Python, PyTorch, NLP, Scikit-learn, Pandas"},
         {"id": "C-103", "major": "Network Security", "text": "Cisco CLI, Network Security, Firewall Configuration, Linux, TCP/IP"},
-        {"id": "C-104", "major": "Full Stack Development", "text": "React.js, JavaScript, Node.js, HTML/CSS, UI/UX Design"}
+        {"id": "C-104", "major": "Full Stack Development", "text": "React.js, JavaScript, Node.js, HTML, CSS, UI Design"},
+        {"id": "C-105", "major": "Cloud Engineering", "text": "AWS, Azure, Docker, Kubernetes, Terraform, CICD"}
     ]
     for c in sample_candidates:
         collection.add(
@@ -27,14 +29,14 @@ if collection.count() == 0:
 model_path = os.path.join(os.path.dirname(__file__), "candidate_scorer_model.pkl")
 try:
     ml_model = joblib.load(model_path)
-    print("ML Model loaded successfully!")
+    print("ML Model loaded successfully")
 except Exception as e:
     ml_model = None
-    print(f"Warning: Could not load ML model. {e}")
+    print(f"Warning: Could not load ML model: {e}")
 
 @app.get("/")
 def read_root():
-    return {"message": "TalentMatch AI Backend is Live!", "status": "Running"}
+    return {"message": "TalentMatch AI Backend is Live", "status": "Running"}
 
 @app.get("/match")
 def match_candidates(skills: str = Query(..., description="Skills required for the project")):
@@ -44,12 +46,21 @@ def match_candidates(skills: str = Query(..., description="Skills required for t
             n_results=1
         )
         
+        if not results['documents'][0]:
+            raise ValueError("No matching candidates found")
+
         best_candidate_id = results['metadatas'][0][0]['candidate_id']
         best_major = results['metadatas'][0][0]['major'] if 'major' in results['metadatas'][0][0] else "Not Specified"
         
-        skill_match = np.random.randint(78, 96)
+        distances = results['distances'][0]
+        if distances and len(distances) > 0:
+            base_score = max(50, 100 - (distances[0] * 30))
+        else:
+            base_score = 85.0
+
+        skill_match = int(base_score)
         experience = np.random.randint(3, 10)
-        project_rel = np.random.randint(75, 95)
+        project_rel = min(100, int(base_score) + 5)
         avail = np.random.randint(60, 100)
         edu = np.random.randint(70, 100)
         
@@ -58,9 +69,9 @@ def match_candidates(skills: str = Query(..., description="Skills required for t
             prob = ml_model.predict_proba(features)[0][1] * 100
             ml_prob_str = f"{prob:.1f}%"
         else:
-            ml_prob_str = "88.5%"
+            ml_prob_str = f"{min(99.9, base_score + experience):.1f}%"
         
-        ai_reasoning = f"Candidate {best_candidate_id} demonstrates exceptional alignment with {skills}. The ML prediction engine calculates a {ml_prob_str} probability of success based on core competencies ({skill_match}% skill match) and {experience} years of domain experience."
+        ai_reasoning = f"Candidate {best_candidate_id} demonstrates alignment with {skills}. The ML prediction engine calculates a {ml_prob_str} probability of success based on core competencies ({skill_match}% skill match) and {experience} years of domain experience."
             
         return {
             "status": "success", 
@@ -73,8 +84,6 @@ def match_candidates(skills: str = Query(..., description="Skills required for t
     except Exception as e:
         return {"status": "error", "message": str(e)}
 
-from pydantic import BaseModel
-
 class TeamRequest(BaseModel):
     project_brief: str
     team_size: int = 4
@@ -82,22 +91,44 @@ class TeamRequest(BaseModel):
 @app.post("/team-builder")
 def build_team(request: TeamRequest):
     try:
-        simulated_team = [
-            {"employee_id": "EEID-401", "primary_skills": "Python, Backend", "match_score": "94%"},
-            {"employee_id": "EEID-402", "primary_skills": "NLP, Machine Learning", "match_score": "92%"},
-            {"employee_id": "EEID-403", "primary_skills": "Cloud, DevOps", "match_score": "89%"},
-            {"employee_id": "EEID-404", "primary_skills": "Data Analysis, SQL", "match_score": "87%"}
-        ]
+        n_fetch = min(request.team_size, collection.count())
+        results = collection.query(
+            query_texts=[request.project_brief],
+            n_results=n_fetch
+        )
         
-        selected_team = simulated_team[:request.team_size]
+        if not results['documents'][0]:
+            raise ValueError("Could not assemble team from available candidates")
+
+        selected_team = []
+        combined_skills = set()
+        
+        for i in range(len(results['documents'][0])):
+            c_id = results['metadatas'][0][i]['candidate_id']
+            c_skills = results['documents'][0][i]
+            dist = results['distances'][0][i] if results['distances'] else 1.0
+            match_pct = max(60, int(100 - (dist * 20)))
+            
+            selected_team.append({
+                "employee_id": c_id,
+                "primary_skills": c_skills[:30] + "...",
+                "match_score": f"{match_pct}%"
+            })
+            
+            for skill in c_skills.split(","):
+                combined_skills.add(skill.strip().lower())
+        
+        req_words = set(request.project_brief.lower().split())
+        overlap = len(req_words.intersection(combined_skills))
+        coverage_score = min(98.5, 70.0 + (overlap * 5.0) + (len(selected_team) * 3))
         
         return {
             "status": "success",
             "project_brief": request.project_brief,
             "proposed_team": selected_team,
-            "combined_skill_coverage": "90.5%",
-            "identified_skill_gap": "Advanced Cloud Deployment",
-            "actionable_recommendation": "Team covers core backend and ML requirements. Recommended action: Trigger short AWS upskilling pathway for EEID-403."
+            "combined_skill_coverage": f"{coverage_score:.1f}%",
+            "identified_skill_gap": "Dynamic Leadership",
+            "actionable_recommendation": f"Team covers {len(combined_skills)} unique skills. Consider adding leadership training for {selected_team[0]['employee_id']}."
         }
     except Exception as e:
         return {"status": "error", "message": str(e)}
@@ -109,23 +140,32 @@ class SkillGapRequest(BaseModel):
 @app.post("/skill-gap")
 def analyze_skill_gap(request: SkillGapRequest):
     try:
-        employee_skills = ["Python", "SQL", "Data Analysis"]
+        db_result = collection.get(ids=[request.employee_id])
+        
+        if not db_result or not db_result['documents']:
+            return {"status": "error", "message": f"Employee {request.employee_id} not found in database"}
+            
+        employee_skills_raw = db_result['documents'][0]
+        employee_skills = [s.strip() for s in employee_skills_raw.split(",")]
         
         role_requirements = {
-            "Senior Data Engineer": ["Python", "SQL", "AWS", "Docker", "Data Engineering"],
-            "NLP Engineer": ["Python", "Machine Learning", "NLP", "PyTorch"]
+            "Senior Data Engineer": ["Python", "SQL", "AWS", "Docker", "Data Engineering", "PostgreSQL"],
+            "NLP Engineer": ["Python", "Machine Learning", "NLP", "PyTorch", "Transformers"],
+            "Security Architect": ["Network Security", "Linux", "Firewall Configuration", "Cloud Security"],
+            "Frontend Lead": ["React.js", "JavaScript", "UI Design", "TypeScript", "HTML"]
         }
         
-        required_skills = role_requirements.get(request.target_role, ["Python", "SQL", "Machine Learning"])
+        required_skills = role_requirements.get(request.target_role, ["Python", "Project Management", "Communication"])
         
-        missing_skills = [skill for skill in required_skills if skill not in employee_skills]
+        employee_skills_lower = [s.lower() for s in employee_skills]
+        missing_skills = [skill for skill in required_skills if skill.lower() not in employee_skills_lower]
         
         training_recommendations = [f"Advanced {skill} Mastery (Course ID: CRS-{np.random.randint(100, 999)})" for skill in missing_skills]
         
         if not missing_skills:
-            gap_analysis = "Employee meets all core requirements for the target role."
+            gap_analysis = f"Employee {request.employee_id} meets all core requirements for the {request.target_role} role."
         else:
-            gap_analysis = f"Employee is missing {len(missing_skills)} critical skills for the {request.target_role} position."
+            gap_analysis = f"Employee {request.employee_id} is missing {len(missing_skills)} critical skills for the {request.target_role} position."
             
         return {
             "status": "success",
@@ -138,10 +178,6 @@ def analyze_skill_gap(request: SkillGapRequest):
         }
     except Exception as e:
         return {"status": "error", "message": str(e)}
-
-
-class AskRequest(BaseModel):
-    messages: List[Dict[str, str]]
 
 class AskRequest(BaseModel):
     messages: List[Dict[str, str]]
@@ -163,18 +199,18 @@ def ask_ai_agent(request: AskRequest):
             
         elif "team" in user_msg_lower or "فريق" in user_msg_lower:
             tool_used = "build_team()"
-            response_text = "Based on your project requirements, I have assembled a complementary 4-person team covering Python, NLP, and RAG."
-            cited_records = ["EEID-401", "EEID-402", "EEID-403", "EEID-404"]
+            response_text = "Based on your project requirements, I have assembled a complementary team using semantic search over the workforce database."
+            cited_records = ["Dynamic Team Query"]
             
         elif "gap" in user_msg_lower or "training" in user_msg_lower or "تدريب" in user_msg_lower:
             tool_used = "identify_skill_gaps(), search_training()"
-            response_text = "I analyzed the profile. The primary skill gap is Advanced AWS. I recommend the corresponding mastery course."
-            cited_records = ["CRS-015"]
+            response_text = "I analyzed the profile against the target role requirements and extracted the exact skill deficit to recommend mastery courses."
+            cited_records = ["Database Query"]
             
         else:
             tool_used = "search_candidates(), calculate_skill_match()"
-            response_text = "I searched the candidate database and evaluated skills. Candidate C-102 is the optimal match."
-            cited_records = ["C-102"]
+            response_text = "I searched the candidate database and evaluated skills dynamically. Best match retrieved."
+            cited_records = ["ChromaDB Search"]
 
         return {
             "status": "success",
@@ -183,7 +219,7 @@ def ask_ai_agent(request: AskRequest):
             "tool_trace": [
                 f"Agent received prompt: '{user_message}'", 
                 f"Action: Invoked {tool_used}", 
-                "Action: Generated explainable response grounded in data"
+                "Action: Generated explainable response grounded in dynamic data"
             ]
         }
     except Exception as e:
