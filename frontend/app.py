@@ -139,7 +139,7 @@ elif view == "Skill Gap Analysis":
     
     c1, c2 = st.columns(2)
     with c1:
-        emp_id = st.text_input("Employee ID", value="EEID-105")
+        emp_id = st.text_input("Employee ID", value="C-102")
     with c2:
         target_role = st.selectbox("Target Role", ["Senior Data Engineer", "NLP Engineer", "Cloud Architect"])
         
@@ -150,20 +150,25 @@ elif view == "Skill Gap Analysis":
                 data = res.json()
                 st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
                 st.markdown("<h4 style='margin-bottom:15px;'>Analysis Results</h4>", unsafe_allow_html=True)
-                st.write(f"**Current Skills:** {', '.join(data['current_skills'])}")
                 
-                if data['missing_skills']:
-                    st.warning(data['gap_analysis'])
-                    st.write("**Missing Capabilities:**")
-                    for skill in data['missing_skills']:
-                        st.markdown(f"<span class='tag' style='background:rgba(255,152,0,0.1); color:#FF9800; border-color:#FF9800;'>{skill}</span>", unsafe_allow_html=True)
+                if data.get("status") == "success":
+                    st.write(f"**Current Skills:** {', '.join(data['current_skills'])}")
                     
-                    st.write("")
-                    st.write("**Recommended Training:**")
-                    for rec in data['training_recommendations']:
-                        st.success(rec)
+                    if data['missing_skills']:
+                        st.warning(data['gap_analysis'])
+                        st.write("**Missing Capabilities:**")
+                        for skill in data['missing_skills']:
+                            st.markdown(f"<span class='tag' style='background:rgba(255,152,0,0.1); color:#FF9800; border-color:#FF9800;'>{skill}</span>", unsafe_allow_html=True)
+                        
+                        st.write("")
+                        st.write("**Recommended Training:**")
+                        for rec in data['training_recommendations']:
+                            st.success(rec)
+                    else:
+                        st.success(data['gap_analysis'])
                 else:
-                    st.success(data['gap_analysis'])
+                    st.error(data.get("message", "Error retrieving data. Please ensure the Employee ID is valid."))
+                
                 st.markdown("</div>", unsafe_allow_html=True)
 
 elif view == "AI Agent Chat":
