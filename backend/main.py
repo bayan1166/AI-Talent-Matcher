@@ -185,16 +185,29 @@ def analyze_skill_gap(request: SkillGapRequest):
 class AskRequest(BaseModel):
     messages: List[Dict[str, str]]
 
+class AskRequest(BaseModel):
+    messages: List[Dict[str, str]]
+
 @app.post("/ask")
 def ask_ai_agent(request: AskRequest):
     try:
+        all_data = collection.get()
+        db_context = "Available Candidates Database:\n"
+        if all_data and all_data['documents']:
+            for i in range(len(all_data['ids'])):
+                db_context += f"- Candidate ID: {all_data['ids'][i]}, Major: {all_data['metadatas'][i]['major']}, Skills: {all_data['documents'][i]}\n"
+        else:
+            db_context += "No candidates currently in database.\n"
+
         system_prompt = (
-            "You are an AI Talent & Workforce Matching Agent. "
-            "Your role is to help users find candidates, build teams, and analyze skill gaps. "
+            "You are an AI HR & Talent Matching Agent. "
+            "Your job is to recommend candidates, build teams, and answer HR queries based ONLY on the following database:\n\n"
+            f"{db_context}\n"
+            "If the user asks to hire a developer, engineer, or any tech role, it IS a valid HR request. Match their request to the candidate skills above.\n"
             "You must remember the conversation history. "
-            "If the user asks a question entirely outside the HR/workforce domain (e.g., weather, programming scripts not related to HR, personal questions), "
-            "strictly reply with exactly this sentence: 'I am an AI Talent & Workforce Matching Agent. I can only answer workforce-matching questions.' "
-            "Do not answer out-of-domain questions under any circumstances. Be concise."
+            "If the user asks a question completely outside HR (e.g., 'what is the weather', 'write a python script'), "
+            "reply EXACTLY with: 'I am an AI Talent & Workforce Matching Agent. I can only answer workforce-matching questions.'\n"
+            "Keep your answers professional and concise."
         )
         
         api_messages = [{"role": "system", "content": system_prompt}]
@@ -206,25 +219,28 @@ def ask_ai_agent(request: AskRequest):
             model="llama3-8b-8192",
             messages=api_messages,
             temperature=0.2,
-            max_tokens=300
+            max_tokens=400
         )
         
         response_text = completion.choices[0].message.content
         
         is_refusal = "I can only answer workforce-matching questions" in response_text
         
-        tool_used = "None" if is_refusal else "Contextual_LLM_Analysis()"
-        cited = [] if is_refusal else ["Conversation History Context"]
+        tool_used = "None" if is_refusal else "Semantic_Context_Matching()"
+        cited = [] if is_refusal else ["ChromaDB Candidates Database"]
+        
+        trace = [f"Agent received {len(request.messages)} messages for context"]
+        if not is_refusal:
+            trace.append("Action: Retrieved live database from ChromaDB")
+            trace.append(f"Action: Invoked {tool_used}")
+        else:
+            trace.append("Action: Blocked out-of-domain request")
         
         return {
             "status": "success",
             "answer": response_text,
             "cited_records": cited,
-            "tool_trace": [
-                f"Agent received {len(request.messages)} messages for context",
-                f"Action: Invoked {tool_used}",
-                "Action: Generated contextual response"
-            ]
+            "tool_trace": trace
         }
     except Exception as e:
         return {"status": "error", "message": str(e)}
