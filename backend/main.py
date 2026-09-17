@@ -5,11 +5,17 @@ import joblib
 import numpy as np
 from typing import List, Dict, Any
 from pydantic import BaseModel
+from groq import Groq
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = FastAPI(title="TalentMatch AI API")
 
 chroma_client = chromadb.PersistentClient(path="./chroma_data")
 collection = chroma_client.get_or_create_collection(name="resumes_collection")
+
+groq_client = Groq(api_key=os.environ.get("MY_SECRET_KEY"))
 
 if collection.count() == 0:
     sample_candidates = [
@@ -29,10 +35,8 @@ if collection.count() == 0:
 model_path = os.path.join(os.path.dirname(__file__), "candidate_scorer_model.pkl")
 try:
     ml_model = joblib.load(model_path)
-    print("ML Model loaded successfully")
-except Exception as e:
+except Exception:
     ml_model = None
-    print(f"Warning: Could not load ML model: {e}")
 
 @app.get("/")
 def read_root():
@@ -50,7 +54,7 @@ def match_candidates(skills: str = Query(..., description="Skills required for t
             raise ValueError("No matching candidates found")
 
         best_candidate_id = results['metadatas'][0][0]['candidate_id']
-        best_major = results['metadatas'][0][0]['major'] if 'major' in results['metadatas'][0][0] else "Not Specified"
+        best_major = results['metadatas'][0][0].get('major', "Not Specified")
         
         distances = results['distances'][0]
         if distances and len(distances) > 0:
@@ -151,11 +155,10 @@ def analyze_skill_gap(request: SkillGapRequest):
         role_requirements = {
             "Senior Data Engineer": ["Python", "SQL", "AWS", "Docker", "Data Engineering", "PostgreSQL"],
             "NLP Engineer": ["Python", "Machine Learning", "NLP", "PyTorch", "Transformers"],
-            "Security Architect": ["Network Security", "Linux", "Firewall Configuration", "Cloud Security"],
-            "Frontend Lead": ["React.js", "JavaScript", "UI Design", "TypeScript", "HTML"]
+            "Cloud Architect": ["AWS", "Azure", "Docker", "Kubernetes", "System Design"]
         }
         
-        required_skills = role_requirements.get(request.target_role, ["Python", "Project Management", "Communication"])
+        required_skills = role_requirements.get(request.target_role, ["Python", "Communication"])
         
         employee_skills_lower = [s.lower() for s in employee_skills]
         missing_skills = [skill for skill in required_skills if skill.lower() not in employee_skills_lower]
@@ -185,41 +188,42 @@ class AskRequest(BaseModel):
 @app.post("/ask")
 def ask_ai_agent(request: AskRequest):
     try:
-        user_message = request.messages[-1]["content"] if request.messages else ""
-        user_msg_lower = user_message.lower()
+        system_prompt = (
+            "You are an AI Talent & Workforce Matching Agent. "
+            "Your role is to help users find candidates, build teams, and analyze skill gaps. "
+            "You must remember the conversation history. "
+            "If the user asks a question entirely outside the HR/workforce domain (e.g., weather, programming scripts not related to HR, personal questions), "
+            "strictly reply with exactly this sentence: 'I am an AI Talent & Workforce Matching Agent. I can only answer workforce-matching questions.' "
+            "Do not answer out-of-domain questions under any circumstances. Be concise."
+        )
         
-        hr_keywords = ["team", "فريق", "gap", "training", "تدريب", "match", "candidate", "مهارات", "skills", "وظيفة", "hire", "employee"]
+        api_messages = [{"role": "system", "content": system_prompt}]
         
-        is_hr_related = any(keyword in user_msg_lower for keyword in hr_keywords)
+        for m in request.messages:
+            api_messages.append({"role": m["role"], "content": m["content"]})
+            
+        completion = groq_client.chat.completions.create(
+            model="llama3-8b-8192",
+            messages=api_messages,
+            temperature=0.2,
+            max_tokens=300
+        )
         
-        if not is_hr_related:
-            tool_used = "None"
-            response_text = "I am an AI Talent & Workforce Matching Agent. I can only answer workforce-matching questions."
-            cited_records = []
-            
-        elif "team" in user_msg_lower or "فريق" in user_msg_lower:
-            tool_used = "build_team()"
-            response_text = "Based on your project requirements, I have assembled a complementary team using semantic search over the workforce database."
-            cited_records = ["Dynamic Team Query"]
-            
-        elif "gap" in user_msg_lower or "training" in user_msg_lower or "تدريب" in user_msg_lower:
-            tool_used = "identify_skill_gaps(), search_training()"
-            response_text = "I analyzed the profile against the target role requirements and extracted the exact skill deficit to recommend mastery courses."
-            cited_records = ["Database Query"]
-            
-        else:
-            tool_used = "search_candidates(), calculate_skill_match()"
-            response_text = "I searched the candidate database and evaluated skills dynamically. Best match retrieved."
-            cited_records = ["ChromaDB Search"]
-
+        response_text = completion.choices[0].message.content
+        
+        is_refusal = "I can only answer workforce-matching questions" in response_text
+        
+        tool_used = "None" if is_refusal else "Contextual_LLM_Analysis()"
+        cited = [] if is_refusal else ["Conversation History Context"]
+        
         return {
             "status": "success",
             "answer": response_text,
-            "cited_records": cited_records,
+            "cited_records": cited,
             "tool_trace": [
-                f"Agent received prompt: '{user_message}'", 
-                f"Action: Invoked {tool_used}", 
-                "Action: Generated explainable response grounded in dynamic data"
+                f"Agent received {len(request.messages)} messages for context",
+                f"Action: Invoked {tool_used}",
+                "Action: Generated contextual response"
             ]
         }
     except Exception as e:
