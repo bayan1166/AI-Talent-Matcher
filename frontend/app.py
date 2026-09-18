@@ -190,10 +190,13 @@ elif view == "AI Agent Chat":
             with st.spinner("Processing..."):
                 try:
                     payload = {"messages": [{"role": m["role"], "content": m["content"]} for m in st.session_state.messages]}
-                    res = requests.post(f"{BASE_URL}/ask", json=payload)
+                    res = requests.post(f"{BASE_URL}/ask", json=payload, timeout=90)
+                    res.raise_for_status() 
+                    data = res.json()
                     
-                    if res.status_code == 200:
-                        data = res.json()
+                    if data.get("status") != "success":
+                        st.error(f"Backend Error: {data.get('message')}")
+                    else:
                         st.markdown(data["answer"])
                         
                         with st.expander("View AI Execution Trace"):
@@ -203,7 +206,14 @@ elif view == "AI Agent Chat":
                                 st.write("**Cited Records:**", ", ".join(data["cited_records"]))
                                 
                         st.session_state.messages.append({"role": "assistant", "content": data["answer"]})
-                    else:
-                        st.error("Agent encountered an error.")
-                except Exception:
-                    st.error("Failed to connect to AI Agent.")
+                
+                except requests.exceptions.Timeout:
+                    st.error("The server is taking a long time to respond. Please try again.")
+                except requests.exceptions.RequestException as e:
+                    try:
+                        error_details = res.json().get('message', str(e))
+                        st.error(f"API Error: {error_details}")
+                    except Exception:
+                        st.error(f"Connection Error: {e}")
+                except Exception as e:
+                    st.error(f"System Error: {e}")

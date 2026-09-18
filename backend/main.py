@@ -15,7 +15,7 @@ app = FastAPI(title="TalentMatch AI API")
 chroma_client = chromadb.PersistentClient(path="./chroma_data")
 collection = chroma_client.get_or_create_collection(name="resumes_collection")
 
-groq_client = Groq(api_key=os.environ.get("MY_SECRET_KEY"))
+groq_client = Groq(api_key=os.environ.get("MY_SECRET_KEY", "fallback_key"))
 
 if collection.count() == 0:
     sample_candidates = [
@@ -185,17 +185,20 @@ def analyze_skill_gap(request: SkillGapRequest):
 class AskRequest(BaseModel):
     messages: List[Dict[str, str]]
 
-class AskRequest(BaseModel):
-    messages: List[Dict[str, str]]
-
 @app.post("/ask")
 def ask_ai_agent(request: AskRequest):
     try:
-        all_data = collection.get()
+        last_user_msg = next((m["content"] for m in reversed(request.messages) if m["role"] == "user"), "")
+        
         db_context = "Available Candidates Database:\n"
-        if all_data and all_data['documents']:
-            for i in range(len(all_data['ids'])):
-                db_context += f"- Candidate ID: {all_data['ids'][i]}, Major: {all_data['metadatas'][i]['major']}, Skills: {all_data['documents'][i]}\n"
+        n_fetch = min(8, collection.count()) if collection.count() > 0 else 0
+        
+        if n_fetch > 0 and last_user_msg:
+            results = collection.query(query_texts=[last_user_msg], n_results=n_fetch)
+            for i in range(len(results['ids'][0])):
+                meta = results['metadatas'][0][i]
+                doc = results['documents'][0][i][:300] # Truncate to save tokens
+                db_context += f"- ID: {results['ids'][0][i]}, Major: {meta.get('major', 'N/A')}, Skills: {doc}\n"
         else:
             db_context += "No candidates currently in database.\n"
 
@@ -231,7 +234,7 @@ def ask_ai_agent(request: AskRequest):
         
         trace = [f"Agent received {len(request.messages)} messages for context"]
         if not is_refusal:
-            trace.append("Action: Retrieved live database from ChromaDB")
+            trace.append("Action: Retrieved live database from ChromaDB via RAG")
             trace.append(f"Action: Invoked {tool_used}")
         else:
             trace.append("Action: Blocked out-of-domain request")
