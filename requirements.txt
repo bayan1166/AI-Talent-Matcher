@@ -105,5 +105,5 @@ uvicorn
 chromadb
 scikit-learn
 joblib
-python-dotenv
 groq
+python-dotenv
