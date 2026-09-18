@@ -216,7 +216,7 @@ def ask_ai_agent(request: AskRequest):
             api_messages.append({"role": m["role"], "content": m["content"]})
             
         completion = groq_client.chat.completions.create(
-            model="llama3-8b-8192",
+            model="llama-3.1-8b-instant",
             messages=api_messages,
             temperature=0.2,
             max_tokens=400
