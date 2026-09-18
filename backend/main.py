@@ -219,11 +219,12 @@ def ask_ai_agent(request: AskRequest):
             api_messages.append({"role": m["role"], "content": m["content"]})
             
         completion = groq_client.chat.completions.create(
-            model="gemma2-9b-it",
-            messages=api_messages,
-            temperature=0.2,
-            max_tokens=400
-        )
+			model="openai/gpt-oss-20b",
+			messages=api_messages,
+			temperature=0.2,
+			max_tokens=1500,
+			reasoning_effort="low"
+		)
         
         response_text = completion.choices[0].message.content
         
